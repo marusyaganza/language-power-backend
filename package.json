@@ -1,0 +1,19 @@
+{
+  "name": "language-power-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uuid": "^3.4.0"
+  },
+  "dependencies": {
+    "express-validator": "^6.4.0",
+    "mongoose": "^5.9.7",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}
