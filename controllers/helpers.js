@@ -32,7 +32,6 @@ const combineArr = (arr = []) => {
   }
   
   const getMetaData = data => {
-    // TODO fix this later
     if (!data) return null;
     const { id, uuid, stems } = data;
     const shortDef = data['app-shortdef'];
@@ -72,7 +71,6 @@ const combineArr = (arr = []) => {
       return result.filter(item => item.name.includes(criteria));
     };
 
-  // TODO separate related words
     const formatData = (initialData, query) => {
         const result = {
             suggestions: [],
@@ -81,6 +79,7 @@ const combineArr = (arr = []) => {
         }
     if (initialData.some(i => typeof i === 'string') && initialData.length) {
       result.suggestions = initialData;
+      return result;
     }
     let formatted = initialData.map(({ meta, hwi, def }) => {
       const metaData = getMetaData(meta);
