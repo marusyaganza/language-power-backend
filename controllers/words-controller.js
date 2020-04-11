@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const HttpError = require('../models/http-error');
 const WordCard = require('../models/word-cards');
 const User = require('../models/user');
+const {formatData} = require('./helpers');
+const axios = require('axios');
+const {KEY, SEARC_ENDPOINT} = require('../api-data');
 
 async function getUsersCards(req,res,next) {
     const {userId} = req.params;
@@ -86,20 +89,6 @@ async function addCard(req, res, next) {
     } catch (err) {
         next(new HttpError('creating card failed, please try again', 500));
     }
-    // let userCards;
-    // try {
-    //     userCards = await WordCard.find({userId: userId});
-    // } catch(err) {
-    //     console.error(err);
-    //     next(new HttpError('card search failed, please try again', 500));
-    // }
-    // if(!userCards) {
-    //     return next(new HttpError(`a user with id ${userId} can not be found`, 404));
-    // }
-    // res.json({cards: userCards.map( card => card.toObject({getters: true}))});
-
-    // send response
-    // res.status(201).json({card: createdCard.toObject({getters: true})});
     res.status(201).json({messsage: 'card created'});
 }
 
@@ -180,8 +169,24 @@ async function updateCard(req, res, next) {
     res.status(201).json({card: card.toObject({getters: true})});
 }
 
+async function search (req, res, next){
+    const {query} = req.params;
+    const url = `${SEARC_ENDPOINT}/${query}?key=${KEY}`;
+    let formattedRes;
+    try {
+       const response = await axios.get(url);
+    formattedRes = formatData(response.data, query);  
+    } catch (err) {
+        console.error(err);
+        next(new HttpError('word search failed', 500));
+    }
+    res.json({result: formattedRes})
+   
+};
+
 exports.getUsersCards = getUsersCards;
 exports.addCard = addCard;
 exports.deleteCard = deleteCard;
 exports.updateCard = updateCard;
 exports.getCard = getCard;
+exports.search = search;

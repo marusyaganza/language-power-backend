@@ -1,7 +1,7 @@
 const express = require('express');
 const {check} = require('express-validator');
 
-const {getUsersCards, addCard, deleteCard, updateCard, getCard} = require('../controllers/words-controller');
+const {getUsersCards, addCard, deleteCard, updateCard, getCard, search} = require('../controllers/words-controller');
 
 const router = express.Router();
 
@@ -13,6 +13,7 @@ const validationRules = [
 
 router.get('/:userId', getUsersCards);
 router.get('/card/:cardId', getCard);
+router.get('/search/:query', search)
 
 router.post('/:userId', validationRules , 
     addCard
