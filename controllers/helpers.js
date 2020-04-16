@@ -1,4 +1,7 @@
 const {AUDIO_ENDPOINT} = require('../api-data');
+const {gameIds} = require('./constants');
+
+
 const findByParam = (param, value) => item => item[param] === value;
 
 const combineArr = (arr = []) => {
@@ -97,7 +100,17 @@ const combineArr = (arr = []) => {
     result.related = formatted.filter(item => !item.name.includes(query));
     return result;
   };
+
+  function generateGameData (defsNumber) {
+    const ids = Object.values(gameIds);
+    const gameData = {};
+    ids.forEach(id => {
+      gameData[id] = id === 'audio' ? [0] : new Array(defsNumber).fill(0)
+    })
+    return gameData;
+  }
   
 
 exports.findByParam = findByParam;
 exports.formatData = formatData;
+exports.generateGameData = generateGameData;

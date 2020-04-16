@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const HttpError = require('../models/http-error');
 const WordCard = require('../models/word-cards');
 const User = require('../models/user');
-const {formatData} = require('./helpers');
+const Score = require('../models/score');
+const {formatData, generateGameData} = require('./helpers');
 const axios = require('axios');
 const {KEY, SEARC_ENDPOINT} = require('../api-data');
 
@@ -77,14 +78,20 @@ async function addCard(req, res, next) {
         return next(new HttpError(`could not find user with id ${userId}`, 404));
     }
 
+    const gameData = generateGameData(card.defs.length);
+    console.log('gameData', gameData);
+
     // save card
-    const createdCard = new WordCard({...card, userId});
+    const createdCard = new WordCard({...card, userId });
+    const score = new Score({userId, score: gameData, cardId: null});
     try {
         const sess = await mongoose.startSession();
         sess.startTransaction();
         await createdCard.save({session: sess});
         user.wordCards.push(createdCard);
         await user.save({session: sess});
+        score.cardId = createdCard;
+        await score.save();
         await sess.commitTransaction();
     } catch (err) {
         next(new HttpError('creating card failed, please try again', 500));

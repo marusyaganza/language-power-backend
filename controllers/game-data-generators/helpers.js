@@ -1,0 +1,49 @@
+const generateRandomNumber = max => Math.floor(Math.random() * max);
+const generateRandomArray = (max, size) => {
+  const result = [];
+  let currentNum;
+  while (result.length < size) {
+    currentNum = generateRandomNumber(max);
+    if (!result.includes(currentNum)) {
+      result.push(currentNum);
+    }
+  }
+  return result;
+};
+
+const generateRandomSample = (data, size) => {
+  const indexes = generateRandomArray(data.length - 1, size);
+  return indexes.map(elem => data[elem]);
+};
+
+const pickUnlearnt = ({ rawData, gameId, config }) => {
+    const unlearnt = rawData.filter(
+        item => !item.score[gameId] || item.score[gameId].some(i => i < config.MAX_GAMES) 
+    );
+    let candidates;
+  if (unlearnt.length <= config.MAX_INDEX + 1) {
+    candidates = unlearnt;
+  } else {
+    candidates = generateRandomSample(unlearnt, config.MAX_INDEX);
+  }
+  const groomed = candidates.map(candidate => {
+    const card = candidate.cardId;
+      const index = candidate.score[gameId].findIndex(i => i < config.MAX_GAMES);
+      const { pronunciation, defs, name, id, uuid } = card;
+      const audioUrl = pronunciation.length ? pronunciation[0].audioUrl : null;
+      return {cardId: id, audioUrl, name, index, defs, uuid};
+  });
+  return groomed;
+};
+
+function generateData (rawData) {
+  return rawData.map(card => {
+    const {cardId, index} = card;
+     return {cardId, index}
+    });
+}
+
+exports.generateRandomSample = generateRandomSample;
+exports.pickUnlearnt = pickUnlearnt;
+exports.generateRandomNumber = generateRandomNumber;
+exports.generateData = generateData;
