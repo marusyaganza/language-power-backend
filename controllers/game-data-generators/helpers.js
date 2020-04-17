@@ -17,8 +17,8 @@ const generateRandomSample = (data, size) => {
 };
 
 const pickUnlearnt = ({ rawData, gameId, config }) => {
-    const unlearnt = rawData.filter(
-        item => !item.score[gameId] || item.score[gameId].some(i => i < config.MAX_GAMES) 
+    const unlearnt = rawData.filter(item =>
+      item.score[gameId] && item.score[gameId].some(i => i < config.MAX_GAMES) 
     );
     let candidates;
   if (unlearnt.length <= config.MAX_INDEX + 1) {
@@ -27,19 +27,19 @@ const pickUnlearnt = ({ rawData, gameId, config }) => {
     candidates = generateRandomSample(unlearnt, config.MAX_INDEX);
   }
   const groomed = candidates.map(candidate => {
-    const card = candidate.cardId;
+    const card = candidate.card;
       const index = candidate.score[gameId].findIndex(i => i < config.MAX_GAMES);
       const { pronunciation, defs, name, id, uuid } = card;
       const audioUrl = pronunciation.length ? pronunciation[0].audioUrl : null;
-      return {cardId: id, audioUrl, name, index, defs, uuid};
+      return {cardId: id, audioUrl, name, index, defs, uuid, id: candidate.id};
   });
   return groomed;
 };
 
 function generateData (rawData) {
-  return rawData.map(card => {
-    const {cardId, index} = card;
-     return {cardId, index}
+  return rawData.map(datum => {
+    const {index} = datum;
+     return {index, id: datum.id}
     });
 }
 

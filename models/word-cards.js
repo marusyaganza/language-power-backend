@@ -19,8 +19,8 @@ const wordCardSchema = new Schema(
             examples: {type: Array},
             definition: {type: String}
         },
-        userId: {type: mongoose.Types.ObjectId, required: true, ref: 'User'},
-        gameData: {type: Object}, 
+        user: {type: mongoose.Types.ObjectId, required: true, ref: 'User'},
+        score: {type: mongoose.Types.ObjectId, ref: 'Score'}
             } 
 );
 

@@ -14,7 +14,7 @@ async function getUsersCards(req,res,next) {
     // check if inputs are valid
     let userCards;
     try {
-        userCards = await WordCard.find({userId: userId});
+        userCards = await WordCard.find({user: userId});
     } catch(err) {
         console.error(err);
         next(new HttpError('card search failed, please try again', 500));
@@ -56,7 +56,7 @@ async function addCard(req, res, next) {
     // check if this card exists
     let existingCard;
     try {
-        existingCard = await WordCard.findOne({uuid: card.uuid, userId})
+        existingCard = await WordCard.findOne({uuid: card.uuid, user: userId})
     } catch (err) {
         console.error(err);
     next(new HttpError('fetching card failed, please try again', 500));
@@ -79,22 +79,22 @@ async function addCard(req, res, next) {
     }
 
     const gameData = generateGameData(card.defs.length);
-    console.log('gameData', gameData);
 
     // save card
-    const createdCard = new WordCard({...card, userId });
-    const score = new Score({userId, score: gameData, cardId: null});
+    const createdCard = new WordCard({...card, user: userId });
+    const score = new Score({user: userId, score: gameData, card: null});
     try {
         const sess = await mongoose.startSession();
         sess.startTransaction();
+        createdCard.score = score;
         await createdCard.save({session: sess});
         user.wordCards.push(createdCard);
         await user.save({session: sess});
-        score.cardId = createdCard;
-        await score.save();
+        score.card = createdCard;
+        await score.save({session: sess});
         await sess.commitTransaction();
     } catch (err) {
-        next(new HttpError('creating card failed, please try again', 500));
+        return next(new HttpError('creating card failed, please try again', 500));
     }
     res.status(201).json({messsage: 'card created'});
 }
@@ -112,8 +112,7 @@ async function deleteCard(req, res, next) {
     // check if this card exists
     let card;
     try {
-        // card = await WordCard.findById(cardId);
-        card = await WordCard.findById(cardId).populate('userId');
+        card = await WordCard.findById(cardId).populate('user').populate('score');
 
     } catch (err) {
         console.error(err);
@@ -123,57 +122,27 @@ async function deleteCard(req, res, next) {
     if(!card) {
         return next(new HttpError(`could not find card with id ${cardId}`, 404));
     }
+    let score;
+    try {
+        Score.find({card: cardId});
+    } catch {
 
-    console.log('card', card);
+    }
 
     // save card
     try {
         const sess = await mongoose.startSession();
         sess.startTransaction();
         await card.remove({session: sess});
-        await card.userId.wordCards.pull(card);
-        await card.userId.save({session: sess});
+        await card.user.wordCards.pull(card);
+        await card.score.remove({session: sess});
+        await card.user.save({session: sess});
         await sess.commitTransaction();
     } catch (err) {
         console.error(err);
         next(new HttpError('deleting card failed, please try again', 500));
     }
     res.status(202).json({message: 'card removed'});
-}
-
-async function updateCard(req, res, next) {
-    const  {cardId} = req.params;
-    const {gameData} = req.body;
-
-    // check if inputs are valid
-    const errors = validationResult(req);
-    if(!errors.isEmpty()) {
-        console.error(errors.errors);
-        return next(new HttpError('invalid inputs passed, please check your data', 422));
-    }
-
-    // check if this card exists
-    let card;
-    try {
-        card = await WordCard.findById(cardId);
-    } catch(err) {
-        console.error(err);
-        next(new HttpError('updating card failed, please try again', 500));
-    }
-    if(!card) {
-        return next(new HttpError(`could not find card with id ${cardId}`, 404));
-    }
-
-    card.gameData = gameData;
-
-    // save card
-    try {
-        card.save();
-    } catch(err) {
-        console.error(err);
-        next(new HttpError('updating card failed, please try again', 500));
-    }
-    res.status(201).json({card: card.toObject({getters: true})});
 }
 
 async function search (req, res, next){
@@ -194,6 +163,5 @@ async function search (req, res, next){
 exports.getUsersCards = getUsersCards;
 exports.addCard = addCard;
 exports.deleteCard = deleteCard;
-exports.updateCard = updateCard;
 exports.getCard = getCard;
 exports.search = search;

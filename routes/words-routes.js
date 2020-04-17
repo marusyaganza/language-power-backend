@@ -21,6 +21,4 @@ router.post('/:userId', validationRules ,
 
 router.delete('/:cardId', deleteCard);
 
-router.patch('/:cardId', [check('gameData').notEmpty()], updateCard);
-
 module.exports = router;

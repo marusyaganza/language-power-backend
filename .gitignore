@@ -1,2 +1,3 @@
 api-data.js
 node_modules
+*.mock.json
