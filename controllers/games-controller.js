@@ -29,6 +29,7 @@ async function postScore (req, res, next) {
         currentScore.splice(index, 1, value);
         const newScore = {...score.score, [gameId]: currentScore};
         score.score = {...newScore};
+        score.lastTimePlayed = Date.now();
         try {
             await score.save();
         } catch(err) {
