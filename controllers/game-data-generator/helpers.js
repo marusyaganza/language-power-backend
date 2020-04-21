@@ -20,12 +20,13 @@ const pickUnlearnt = ({ rawData, gameId, config }) => {
     const unlearnt = rawData.filter(item =>
       item.score[gameId] && item.score[gameId].some(i => i < config.MAX_GAMES) 
     );
+    const {WORDS_PER_GAME} = config;
     let candidates;
-  if (unlearnt.length <= config.MAX_INDEX + 1) {
-    candidates = unlearnt;
-  } else {
-    candidates = generateRandomSample(unlearnt, config.MAX_INDEX);
-  }
+    if (unlearnt.length <= WORDS_PER_GAME) {
+      candidates = unlearnt;
+    } else {
+      candidates = generateRandomSample(unlearnt, WORDS_PER_GAME);
+    }
   const groomed = candidates.map(candidate => {
     const card = candidate.card;
       const index = candidate.score[gameId].findIndex(i => i < config.MAX_GAMES);
@@ -47,3 +48,4 @@ exports.generateRandomSample = generateRandomSample;
 exports.pickUnlearnt = pickUnlearnt;
 exports.generateRandomNumber = generateRandomNumber;
 exports.generateData = generateData;
+exports.generateRandomArray = generateRandomArray;

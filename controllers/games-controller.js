@@ -1,7 +1,8 @@
 const {validationResult} = require('express-validator');
 const Score = require('../models/score');
+const Game = require('../models/game');
 const HttpError = require('../models/http-error');
-const {gameIds} = require('./constants');
+const prepageGameData = require('./game-data-generator/generator');
 
 async function postScore (req, res, next) {
     const errors = validationResult(req);
@@ -10,9 +11,7 @@ async function postScore (req, res, next) {
         return next(new HttpError('invalid inputs passed, please check your data', 422));
     }
     const {gameResults, gameId} = req.body;
-    if (!gameIds[gameId]) {
-        return next(new HttpError(`game ${gameId} is not found`, 404));
-    }
+
     for (const item of gameResults) {
         let score;
         const {id, index, result} = item;
@@ -43,10 +42,6 @@ async function postScore (req, res, next) {
 async function getGame(req, res, next) {
     const {gameId} = req.params;
 
-    if (!gameIds[gameId]) {
-        return next(new HttpError(`game ${gameId} is not found`, 404));
-    }
-
     const userId = req.query.userid;
     let score;
 
@@ -55,17 +50,58 @@ async function getGame(req, res, next) {
     } catch(err) {
         return next(new HttpError('fetching gamecards failed, please try again', 500));
     }
-    
-    if(!score || !score.length) {
-        return res.json({message: 'noting to learn'});
+
+    if (! score) {
+        return next(new HttpError(`a user with id ${userId} can not be found`, 404));
     }
 
-    const gameDataGanerator = require(`./game-data-generators/generators/${gameId}`);
+    let gameConfig;
+    
+    try {
+        gameConfig = await Game.find({name: gameId});
+    } catch (err) {
+        console.error(err);
+        return next(new HttpError('fetching game config failed, please try again', 500));
+    }
+
+    if (! gameConfig || !gameConfig.length === 1) {
+        return next(new HttpError(`a game with id ${gameId} can not be found`, 404));
+    }
+
     const cardsForGame = score.filter(i => i.score[gameId]);
-    const result = gameDataGanerator(cardsForGame);
+    const {config} = gameConfig[0];
+    const result = prepageGameData(cardsForGame, {...config, gameId});
 
     res.json({...result});
 }
 
+async function getAvailableGames (req, res, next) {
+    let games;
+    try {
+        games = await Game.find();
+    } catch (err) {
+        console.error(err);
+        return next(new HttpError('fetching games failed, please try again', 500));
+    }
+    if(!games) {
+        res.json({message: 'no games available'});
+    }
+    res.json([...games.map(game => {const {name, title, description, logo, id, config} = game; return {name, title, description, logo, id, config}})])
+}
+
+async function addGame (req, res, next){
+    const {game} = req.body;
+    const createdGame = new Game({...game});
+    try {
+        createdGame.save();
+    } catch (err) {
+        console.error(err);
+        return next(new HttpError('creating game failed, please try again', 500));
+    }
+    res.json({game: createdGame.toObject({getters: true})})
+}
+
 exports.postScore = postScore;
 exports.getGame = getGame;
+exports.getAvailableGames = getAvailableGames;
+exports.addGame = addGame;

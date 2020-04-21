@@ -22,7 +22,7 @@ async function getUsersCards(req,res,next) {
     if(!userCards) {
         return next(new HttpError(`a user with id ${userId} can not be found`, 404));
     }
-    res.json({cards: userCards.map( card => card.toObject({getters: true}))});
+    res.json([...userCards.map( card => card.toObject({getters: true}))]);
 };
 
 async function getCard(req, res, next) {
@@ -156,7 +156,7 @@ async function search (req, res, next){
         console.error(err);
         next(new HttpError('word search failed', 500));
     }
-    res.json({result: formattedRes})
+    res.json({...formattedRes})
    
 };
 
