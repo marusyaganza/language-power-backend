@@ -19,9 +19,9 @@ const generateOptions = ({rawData, uuid, optionsNum, config}) => {
   };
   
 const prepareGameData = (rawData, config) => {
-  const {gameId, QUESTION_PROP, ANSWER_PROP, AUDIO_IS_REQUIRED, MIN_WORDS, OPTIONS_NUM, MULTIPLE_CORRECT_ANSWERS} = config;
-  if(rawData.length < MIN_WORDS) {
-    return {qa:[], message: `You need to have at least ${MIN_WORDS} words to play this game`}
+  const {gameId, QUESTION_PROP, ANSWER_PROP, AUDIO_IS_REQUIRED, MIN_WORDS_IN_VOCAB, OPTIONS_NUM, MULTIPLE_CORRECT_ANSWERS} = config;
+  if(rawData.length < MIN_WORDS_IN_VOCAB) {
+    return {qa:[], message: `You need to have at least ${MIN_WORDS_IN_VOCAB} words to play this game`}
   }
   let words = rawData;
   if (AUDIO_IS_REQUIRED) {

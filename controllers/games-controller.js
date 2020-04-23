@@ -23,6 +23,10 @@ async function postScore (req, res, next) {
         if (!score) {
             return next(new HttpError(`score ${id} is not found`, 404));
         }
+        const {userData} = req;
+        if (score.user.toString() !== userData.userId) {
+        return next(new HttpError('Auth is required for this operation', 403));
+            }
         const currentScore = [...score.score[gameId]];
         const value = currentScore[index] + result;
         currentScore.splice(index, 1, value);
@@ -42,7 +46,7 @@ async function postScore (req, res, next) {
 async function getGame(req, res, next) {
     const {gameId} = req.params;
 
-    const userId = req.query.userid;
+    const {userId} = req.userData;
     let score;
 
     try {

@@ -9,9 +9,8 @@ const axios = require('axios');
 const {KEY, SEARC_ENDPOINT} = require('../api-data');
 
 async function getUsersCards(req,res,next) {
-    const {userId} = req.params;
+    const {userId} = req.userData;
 
-    // check if inputs are valid
     let userCards;
     try {
         userCards = await WordCard.find({user: userId});
@@ -43,7 +42,7 @@ async function getCard(req, res, next) {
 }
 
 async function addCard(req, res, next) {
-    const {userId} = req.params;
+    const {userId} = req.userData;
     const card = req.body;
 
     // check if inputs are valid
@@ -113,7 +112,6 @@ async function deleteCard(req, res, next) {
     let card;
     try {
         card = await WordCard.findById(cardId).populate('user').populate('score');
-
     } catch (err) {
         console.error(err);
         next(new HttpError('fetching card failed, please try again', 500));
@@ -122,11 +120,10 @@ async function deleteCard(req, res, next) {
     if(!card) {
         return next(new HttpError(`could not find card with id ${cardId}`, 404));
     }
-    let score;
-    try {
-        Score.find({card: cardId});
-    } catch {
 
+    const {userData} = req;
+    if (card.user.id.toString() !== userData.userId) {
+        return next(new HttpError(`card ${cardId} belongs another user you cannot delete it`, 403));
     }
 
     // save card

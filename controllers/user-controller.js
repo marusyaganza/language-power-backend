@@ -1,6 +1,9 @@
 const {validationResult} = require('express-validator');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const HttpError = require('../models/http-error');
+const {TOKEN_KEY} = require('../api-data');
 
 
 async function getUsers(req, res, next) {
@@ -28,15 +31,36 @@ async function login(req, res, next) {
     try {
         user = await User.findOne({email: email});
     } catch (err) {
-        console.error(err);
-        
+        console.error(err);  
         return next(new HttpError(`login user failed, please try later`, 500));
     }
 
-    if(!user || user.password !== password) {
+    if(!user) {
         return next(new HttpError('could not identify user, credentials seems wrong', 401));
     } 
-    res.json({...user.toObject({getters: true})});
+
+    let isValidPassword = false;
+    try {
+        isValidPassword = await bcrypt.compare(password, user.password);
+    } catch (err) {
+        console.error(err);
+        return new HttpError('Login failed, please try again', 500);
+    }
+
+    if (!isValidPassword) {
+        return next(new HttpError('could not identify user, credentials seems wrong', 401));
+    }
+
+    let token;
+
+    try {
+        token = jwt.sign({userId: user.id}, TOKEN_KEY, {expiresIn: '1h'})
+    } catch (err) {
+        console.error(err);
+        return new HttpError('Login failed, please try again', 500);
+    }
+
+    res.json({userId: user.id, token});
 }
 
 async function signup(req, res, next) {
@@ -56,13 +80,31 @@ async function signup(req, res, next) {
     if(existingUser) {
         return next(new HttpError(`could not signup user, the email ${email} is already taken`, 401));
     }
-    const user = new User({name, email, password, wordCards: []});
+    
+    let hashedPassword;
+
+    try {
+        hashedPassword = await bcrypt.hash(password, 12);
+    } catch (err) {
+        console.error(err);
+        return new HttpError('Could not create user, pleate try again', 500);
+    }
+    const user = new User({name, email, password: hashedPassword, wordCards: []});
+
     try {
         await user.save();
     } catch (err) {
         return next(new HttpError(`sign up failed, please try later`, 500));
     }
-    res.status(201).json({...user.toObject({getters: true})});
+    let token;
+
+    try {
+        token = jwt.sign({userId: user.id}, TOKEN_KEY, {expiresIn: '1h'})
+    } catch (err) {
+        console.error(err);
+        return new HttpError('Login failed, please try again', 500);
+    }
+    res.status(201).json({userId: user.id, token});
 }
 
 exports.getUsers = getUsers;
