@@ -3,7 +3,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const HttpError = require('../models/http-error');
-const {TOKEN_KEY} = require('../api-data');
 
 
 async function getUsers(req, res, next) {
@@ -54,7 +53,7 @@ async function login(req, res, next) {
     let token;
 
     try {
-        token = jwt.sign({userId: user.id}, TOKEN_KEY, {expiresIn: '1h'})
+        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1h'})
     } catch (err) {
         console.error(err);
         return new HttpError('Login failed, please try again', 500);
@@ -99,7 +98,7 @@ async function signup(req, res, next) {
     let token;
 
     try {
-        token = jwt.sign({userId: user.id}, TOKEN_KEY, {expiresIn: '1h'})
+        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1h'})
     } catch (err) {
         console.error(err);
         return new HttpError('Login failed, please try again', 500);

@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const {TOKEN_KEY} = require('../api-data');
 const HttpError = require('../models/http-error');
 
 function checkAuth (req, res, next) {
@@ -11,7 +10,7 @@ function checkAuth (req, res, next) {
         if (!token) {
             throw new Error('Auth failed');
         }
-        const decoded = jwt.verify(token, TOKEN_KEY);
+        const decoded = jwt.verify(token, process.env.TOKEN_KEY);
         req.userData = {userId: decoded.userId};
         next()
     } catch(err) {

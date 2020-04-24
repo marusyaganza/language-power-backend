@@ -1,4 +1,3 @@
-const {AUDIO_ENDPOINT} = require('../api-data');
 const {gameIds} = require('./constants');
 
 const combineArr = (arr = []) => {
@@ -52,7 +51,7 @@ const combineArr = (arr = []) => {
       if (item.sound) {
         const { audio } = item.sound;
         const letter = audio.slice(0, 1);
-        result.audioUrl = `${AUDIO_ENDPOINT}/${letter}/${audio}.wav`;
+        result.audioUrl = `${process.env.AUDIO_ENDPOINT}/${letter}/${audio}.wav`;
       }
       return result;
     });

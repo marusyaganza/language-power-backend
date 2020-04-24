@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 
-const {DB_URL} = require('./api-data');
 const userRoutes = require('./routes/user-routes');
 const wordsRoutes = require('./routes/words-routes');
 const gamesRoutes = require('./routes/games-routes');
@@ -36,9 +35,9 @@ app.use((error,req, res, next) => {
 });
 
 mongoose.
-connect(DB_URL)
+connect(`${process.env.DB_URL}/${process.env.DB_NAME}?retryWrites=true&w=majority`)
 .then(() => {
-    app.listen(5000);
+    app.listen(process.env.PORT);
 })
 .catch((err) => {
     console.error(err);

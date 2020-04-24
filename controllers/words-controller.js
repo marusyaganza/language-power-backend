@@ -6,7 +6,6 @@ const User = require('../models/user');
 const Score = require('../models/score');
 const {formatData, generateGameData} = require('./helpers');
 const axios = require('axios');
-const {KEY, SEARC_ENDPOINT} = require('../api-data');
 
 async function getUsersCards(req,res,next) {
     const {userId} = req.userData;
@@ -22,7 +21,7 @@ async function getUsersCards(req,res,next) {
         return next(new HttpError(`a user with id ${userId} can not be found`, 404));
     }
     res.json([...userCards.map( card => card.toObject({getters: true}))]);
-};
+}
 
 async function getCard(req, res, next) {
     const {cardId} = req.params;
@@ -144,7 +143,7 @@ async function deleteCard(req, res, next) {
 
 async function search (req, res, next){
     const {query} = req.params;
-    const url = `${SEARC_ENDPOINT}/${query}?key=${KEY}`;
+    const url = `${process.env.SEARC_ENDPOINT}/${query}?key=${process.env.MW_KEY}`;
     let formattedRes;
     try {
        const response = await axios.get(url);
@@ -155,7 +154,7 @@ async function search (req, res, next){
     }
     res.json({...formattedRes})
    
-};
+}
 
 exports.getUsersCards = getUsersCards;
 exports.addCard = addCard;

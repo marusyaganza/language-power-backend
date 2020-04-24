@@ -1,0 +1,6 @@
+/.git
+/.idea
+node_modules
+*.mock.js
+webpack.config.js
+mocks

@@ -2,7 +2,7 @@ const express = require('express');
 const {check} = require('express-validator');
 
 const checkAuth = require('../middleware/check-auth');
-const {getUsersCards, addCard, deleteCard, updateCard, getCard, search} = require('../controllers/words-controller');
+const {getUsersCards, addCard, deleteCard, getCard, search} = require('../controllers/words-controller');
 
 const router = express.Router();
 
