@@ -29,7 +29,11 @@ const pickUnlearnt = ({ rawData, gameId, config }) => {
     }
   const groomed = candidates.map(candidate => {
     const card = candidate.card;
-      const index = candidate.score[gameId].findIndex(i => i < config.MAX_GAMES);
+      const defsIndexes = candidate.score[gameId]
+      .map((played, i) => {return {played, i}})
+      .filter(def => def.played < config.MAX_GAMES);
+      const randNum = generateRandomNumber(defsIndexes.length);
+      const index = defsIndexes[randNum].i;
       const { pronunciation, defs, name, id, uuid } = card;
       const audioUrl = pronunciation.length ? pronunciation[0].audioUrl : null;
       return {cardId: id, audioUrl, name, index, defs, uuid, id: candidate.id};

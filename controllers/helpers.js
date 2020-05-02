@@ -36,7 +36,8 @@ const combineArr = (arr = []) => {
     const shortDef = data['app-shortdef'];
     if (!shortDef) return null;
     const name = filterString(id);
-    const defs = shortDef.def;
+    const defs = shortDef.def.filter(def => def.includes('{bc}'));
+    if (! defs.length) return null;
     const particle = shortDef.fl;
     return { uuid, name, stems, defs, particle };
   };
