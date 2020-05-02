@@ -64,6 +64,9 @@ async function login(req, res, next) {
 
 async function signup(req, res, next) {
     const {name, email, password} = req.body;
+    if (process.env.mode !== 'dev') {
+        return next(new HttpError('Sign Up is temporarily unavailable, please try again later', 503));
+    }
     const errors = validationResult(req);
     if(!errors.isEmpty()) {
         console.error(errors);

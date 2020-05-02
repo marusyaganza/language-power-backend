@@ -90,7 +90,7 @@ async function getAvailableGames (req, res, next) {
     if(!games) {
         res.json({message: 'no games available'});
     }
-    res.json([...games.map(game => {const {name, title, description, logo, id, config} = game; return {name, title, description, logo, id, config}})])
+    res.json([...games.map(game => game.toObject({getters: true}))]);
 }
 
 async function addGame (req, res, next){
