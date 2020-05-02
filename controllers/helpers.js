@@ -34,7 +34,7 @@ const combineArr = (arr = []) => {
     if (!data) return null;
     const { id, uuid, stems } = data;
     const shortDef = data['app-shortdef'];
-    if (!shortDef) return null;
+    if (!shortDef || !shortDef.def) return null;
     const name = filterString(id);
     const defs = shortDef.def.filter(def => def.includes('{bc}'));
     if (! defs.length) return null;
