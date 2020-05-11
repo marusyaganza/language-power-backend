@@ -15,13 +15,10 @@ const wordCardSchema = new Schema(
                 audioUrl: {type: String}
             }
         ],
-        fullDef: {
-            examples: {type: Array},
-            definition: {type: String}
-        },
+        examples: {type: Array},
         user: {type: mongoose.Types.ObjectId, required: true, ref: 'User'},
         score: {type: mongoose.Types.ObjectId, ref: 'Score'}
-            } 
+    }
 );
 
 module.exports = mongoose.model('WordCard', wordCardSchema);
