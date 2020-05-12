@@ -92,6 +92,7 @@ async function addCard(req, res, next) {
         await score.save({session: sess});
         await sess.commitTransaction();
     } catch (err) {
+        console.error(err);
         return next(new HttpError('creating card failed, please try again', 500));
     }
     res.status(201).json({messsage: 'card created'});
