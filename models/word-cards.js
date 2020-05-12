@@ -9,12 +9,11 @@ const wordCardSchema = new Schema(
         particle: {type: String, required: true},
         defs : {type: Array},
         stems: {type: Array},
-        pronunciation: [
+        pronunciation: 
             {
                 transcription:  {type: String},
                 audioUrl: {type: String}
-            }
-        ],
+            },
         examples: {type: Array},
         user: {type: mongoose.Types.ObjectId, required: true, ref: 'User'},
         score: {type: mongoose.Types.ObjectId, ref: 'Score'}

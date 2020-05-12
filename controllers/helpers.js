@@ -41,17 +41,17 @@ const combineArr = (arr = []) => {
   const getAudio = hwi => {
     const { prs, altprs } = hwi;
     const pr = prs || altprs;
-    if (!pr) return [];
-    const result = {};
-    return pr.map(item => {
-      result.transcription = item.ipa;
-      if (item.sound) {
-        const { audio } = item.sound;
-        const letter = audio.slice(0, 1);
-        result.audioUrl = `${process.env.AUDIO_ENDPOINT}/${letter}/${audio}.wav`;
-      }
-      return result;
-    });
+    if (!pr || !pr.length) {
+      return {};
+    }
+    const {ipa, sound} = pr[0];
+    let audioUrl = null;
+    if (sound) {
+          const { audio } = sound;
+          const letter = audio.slice(0, 1);
+          audioUrl = `${process.env.AUDIO_ENDPOINT}/${letter}/${audio}.wav`;
+        }
+        return {transcription: ipa, audioUrl}
   };
   
   const getExamples = def => {
@@ -79,7 +79,7 @@ const combineArr = (arr = []) => {
              (prev, cur) => {
                return {
                  ...cur,
-                 pronunciation: prev.pronunciation[0].audioUrl? prev.pronunciation : cur.pronunciation,
+                 pronunciation: prev.pronunciation.audioUrl? prev.pronunciation : cur.pronunciation,
                  defs: [...cur.defs, ...prev.defs],
                  examples: [...prev.examples, ...cur.examples]}});
              result.push(merged);
