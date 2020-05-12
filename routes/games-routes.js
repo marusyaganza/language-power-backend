@@ -7,9 +7,9 @@ const router = express.Router();
 
 router.get('/catalog', getAvailableGames);
 
-router.use(checkAuth);
-
 router.post('/catalog', addGame);
+
+router.use(checkAuth);
 
 router.get('/:gameId', getGame);
 

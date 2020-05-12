@@ -53,7 +53,7 @@ async function login(req, res, next) {
     let token;
 
     try {
-        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1h'})
+        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1y'})
     } catch (err) {
         console.error(err);
         return new HttpError('Login failed, please try again', 500);
@@ -101,7 +101,7 @@ async function signup(req, res, next) {
     let token;
 
     try {
-        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1h'})
+        token = jwt.sign({userId: user.id}, process.env.TOKEN_KEY, {expiresIn: '1y'})
     } catch (err) {
         console.error(err);
         return new HttpError('Login failed, please try again', 500);

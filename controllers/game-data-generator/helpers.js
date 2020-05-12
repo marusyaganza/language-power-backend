@@ -34,9 +34,9 @@ const pickUnlearnt = ({ rawData, gameId, config }) => {
       .filter(def => def.played < config.MAX_GAMES);
       const randNum = generateRandomNumber(defsIndexes.length);
       const index = defsIndexes[randNum].i;
-      const { pronunciation, defs, name, id, uuid } = card;
-      const audioUrl = pronunciation.length ? pronunciation[0].audioUrl : null;
-      return {cardId: id, audioUrl, name, index, defs, uuid, id: candidate.id};
+      const { pronunciation, defs, name, id, uuid, particle } = card;
+      const audioUrl = pronunciation ? pronunciation.audioUrl : null;
+      return {cardId: id, audioUrl, name, index, defs, particle, uuid, id: candidate.id};
   });
   return groomed;
 };

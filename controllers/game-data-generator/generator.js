@@ -26,7 +26,7 @@ const prepareGameData = (rawData, config) => {
   let words = rawData;
   if (AUDIO_IS_REQUIRED) {
     words = rawData.filter(
-      i => i.card.pronunciation.length && i.card.pronunciation[0].audioUrl
+      i => i.card.pronunciation && i.card.pronunciation.audioUrl
       );
     }
     const selected = pickUnlearnt({ rawData: words, config, gameId });
