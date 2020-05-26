@@ -4,20 +4,27 @@
   "description": "",
   "main": "index.js",
   "type": "commonjs",
-    "engines": {
-        "node": ">=8.10.0"
-    },
+  "engines": {
+    "node": ">=8.10.0"
+  },
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
+    "test": "jest",
     "eslint": "eslint --debug ./",
-    "format-fix": "yarn eslint --fix"
+    "format-fix": "yarn eslint --fix",
+    "coverage": "yarn jest --collect-coverage",
+    "ready": "yarn format-fix && yarn coverage"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-jest": "^23.13.1",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
     "uuid": "^3.4.0"
   },
   "dependencies": {

@@ -1,0 +1,80 @@
+[
+    {
+        "name": "wordDefinition",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 6,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": false,
+            "OPTIONS_NUM": 6,
+            "MULTIPLE_CORRECT_ANSWERS": false,
+            "QUESTION_PROP": "name",
+            "ANSWER_PROP": "defs"
+        }
+    },
+    {
+        "name": "definitionWord",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 6,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": false,
+            "OPTIONS_NUM": 6,
+            "MULTIPLE_CORRECT_ANSWERS": false,
+            "QUESTION_PROP": "defs",
+            "ANSWER_PROP": "name"
+        }
+    },
+    {
+        "name": "audio",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 1,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": true,
+            "OPTIONS_NUM": 0,
+            "MULTIPLE_CORRECT_ANSWERS": false,
+            "QUESTION_PROP": "audioUrl",
+            "ANSWER_PROP": "name"
+        }
+    },
+    {
+        "name": "writing",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 1,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": false,
+            "OPTIONS_NUM": 0,
+            "MULTIPLE_CORRECT_ANSWERS": false,
+            "QUESTION_PROP": "defs",
+            "ANSWER_PROP": "name"
+        }
+    },
+    {
+        "name": "audioChallenge",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 6,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": true,
+            "OPTIONS_NUM": 6,
+            "MULTIPLE_CORRECT_ANSWERS": false,
+            "QUESTION_PROP": "audioUrl",
+            "ANSWER_PROP": "defs"
+        }
+    },
+    {
+        "name": "findAllDefs",
+        "config": {
+            "MAX_GAMES": 5,
+            "MIN_WORDS_IN_VOCAB": 6,
+            "WORDS_PER_GAME": 6,
+            "AUDIO_IS_REQUIRED": false,
+            "OPTIONS_NUM": 6,
+            "MULTIPLE_CORRECT_ANSWERS": true,
+            "QUESTION_PROP": "name",
+            "ANSWER_PROP": "defs"
+        }
+    }
+]

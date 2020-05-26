@@ -1,0 +1,112 @@
+[
+    {
+        "hwi": {
+            "hw": "de*mure",
+            "prs": [
+                {
+                    "ipa": "dɪˈmjuɚ",
+                    "sound": {
+                        "audio": "demure01"
+                    }
+                }
+            ]
+        },
+        "fl": "adjective",
+        "gram": "more ~; most ~",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}quiet and polite"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used to describe a woman or girl "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "a {it}demure{/it} young lady"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}not attracting or demanding a lot of attention {bc}not showy or flashy "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She was wearing a {it}demure{/it} gray suit."
+                                            },
+                                            {
+                                                "t": "the {it}demure{/it} charm of the cottage"
+                                            },
+                                            {
+                                                "t": "a {it}demure{/it} personality"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "de*mure*ly",
+                "fl": "adverb",
+                "utxt": [
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}demurely{/it} dressed young woman"
+                            },
+                            {
+                                "t": "She smiled {it}demurely{/it}."
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
+                "ure": "de*mure*ness",
+                "fl": "noun",
+                "gram": "noncount"
+            }
+        ],
+        "shortdef": [
+            "quiet and polite—usually used to describe a woman or girl",
+            "not attracting or demanding a lot of attention : not showy or flashy"
+        ]
+    }
+]

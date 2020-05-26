@@ -1,0 +1,27 @@
+{
+  "suggestions": [],
+  "match": [
+    {
+      "uuid": "74046e79-e4c9-4b52-ac96-cb7ae98fb601",
+      "name": "shoal",
+      "stems": ["shoal", "shoals"],
+      "defs": [
+        "{bc} a large group or number",
+        "{bc} an area where the water in a sea, lake, or river is not deep",
+        "{bc} a small, raised area of sand just below the surface of the water"
+      ],
+      "particle": "noun",
+      "examples": [
+        "fish lurking in the {it}shoals{/it}",
+        "The boat ran aground on the {it}shoal{/it}.",
+        "a {it}shoal{/it} [=(more commonly) {it}school{/it}] {it}of{/it} fish",
+        "({it}chiefly Brit{/it}) a {it}shoal of{/it} letters from angry readers"
+      ],
+      "pronunciation": {
+        "transcription": "ˈʃoʊl",
+        "audioUrl": "https://media.merriam-webster.com/soundc11/s/shoal001.wav"
+      }
+    }
+  ],
+  "related": []
+}

@@ -1,0 +1,360 @@
+[
+    {
+        "score": {
+            "writing": [
+                0
+            ],
+            "audio": [
+                2
+            ],
+            "definitionWord": [
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0
+            ],
+            "findAllDefs": [
+                0
+            ]
+        },
+        "card": {
+            "id": "0",
+            "pronunciation": {
+                "transcription": "ˈtɑːsˌʌp",
+                "audioUrl": "https://test.com/audio/t/tossup01.wav"
+            },
+            "defs": [
+                "{bc} a situation in which there is no clear right choice or in which what will happen is not known"
+            ],
+            "stems": [
+                "toss-up",
+                "toss-ups"
+            ],
+            "examples": [
+                "The election is a {it}toss-up{/it}."
+            ],
+            "uuid": "2c669d30-30d0-4ae8-b606-4875bfb67c90",
+            "name": "toss-up",
+            "particle": "noun"
+        },
+        "lastTimePlayed": "2020-05-15T19:50:29.158Z"
+    },
+    {
+        "score": {
+            "writing": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "audio": [
+                1
+            ],
+            "definitionWord": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "findAllDefs": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "card": {
+            "id": "1",
+            "pronunciation": {
+                "transcription": "ˈbɑːl",
+                "audioUrl": "https://test.com/audio/b/ball0001.wav"
+            },
+            "defs": [
+                "{bc} a large formal party for dancing",
+                "{bc} a usually round object that is used in a game or sport or as a toy",
+                "{bc} something that has a round shape",
+                "{bc} a round bullet shot out of an old-fashioned gun"
+            ],
+            "stems": [
+                "ball",
+                "balls",
+                "on the ball",
+                "have a ball"
+            ],
+            "examples": [
+                "a tennis/soccer {it}ball{/it}",
+                "golf/billiard/bowling {it}balls{/it}",
+                "a toy rubber {it}ball{/it}",
+                "kick/throw/hit/catch/bounce/dribble the {it}ball{/it}",
+                "a {it}ball{/it} of string",
+                "She uses cotton {it}balls{/it} to clean her face.",
+                "eating rice/melon {it}balls{/it}",
+                "He stood on the {it}balls{/it} of his feet.",
+                "She kicked him in the {it}balls{/it}.",
+                "You don't have the/enough {it}balls{/it} [={it}guts{/it}, {it}nerve{/it}] to fight me.",
+                "She hit a high arching {it}ball{/it} over the net.",
+                "I thought the {it}ball{/it} [=serve] was good, but my opponent said it was out.",
+                "The first pitch was a {it}ball{/it} but the next two pitches were strikes.",
+                "Cinderella went to the {it}ball{/it} and danced with the prince.",
+                "They were invited to the governor's {it}ball{/it}."
+            ],
+            "uuid": "855cb64d-6e1d-4b48-b070-270ff1df6d8a",
+            "name": "ball",
+            "particle": "noun"
+        },
+        "lastTimePlayed": "2020-05-12T12:17:14.316Z"
+    },
+    {
+        "score": {
+            "writing": [
+                0
+            ],
+            "audio": [
+                0
+            ],
+            "definitionWord": [
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0
+            ],
+            "findAllDefs": [
+                0
+            ]
+        },
+        "card": {
+            "id": "2",
+            "pronunciation": {
+                "transcription": "səˈlæbɪk",
+                "audioUrl": "https://test.com/audio/s/syllab02.wav"
+            },
+            "defs": [
+                "{it}linguistics{/it} {bc} of or relating to syllables"
+            ],
+            "stems": [
+                "syllabic"
+            ],
+            "examples": [
+                "{it}syllabic{/it} accent/stress"
+            ],
+            "uuid": "40252ea8-01e6-46ee-8c07-de172c8b8ed5",
+            "name": "syllabic",
+            "particle": "adjective"
+        }
+    },
+    {
+        "score": {
+            "writing": [
+                0
+            ],
+            "audio": [
+                0
+            ],
+            "definitionWord": [
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0
+            ],
+            "findAllDefs": [
+                0
+            ]
+        },
+        "card": {
+            "id": "3",
+            "pronunciation": {
+                "transcription": "ˈsɪləbəl",
+                "audioUrl": "https://media.merriam-webster.com/soundc11/s/syllab09.wav"
+            },
+            "defs": [
+                "{bc} any one of the parts into which a word is naturally divided when it is pronounced"
+            ],
+            "stems": [
+                "syllable",
+                "syllables",
+                "in words of one syllable"
+            ],
+            "examples": [
+                "The word {ldquo}doctor{rdquo} has two {it}syllables{/it}.",
+                "{ldquo}Doctor{rdquo} is a two-{it}syllable{/it} word.",
+                "The first {it}syllable{/it} of the word {ldquo}doctor{rdquo} is given stress."
+            ],
+            "uuid": "1a3e171a-8ec4-409c-94e5-f33abfdaddd6",
+            "name": "syllable",
+            "particle": "noun"
+        }
+    },
+    {
+        "score": {
+            "writing": [
+                0,
+                0,
+                0
+            ],
+            "audio": [
+                1
+            ],
+            "definitionWord": [
+                0,
+                0,
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0,
+                0,
+                0
+            ],
+            "findAllDefs": [
+                0,
+                0,
+                0
+            ]
+        },
+        "card": {
+            "id": "4",
+            "pronunciation": {
+                "transcription": "prəˈfʌndəti",
+                "audioUrl": "https://media.merriam-webster.com/soundc11/p/profun01.wav"
+            },
+            "defs": [
+                "{bc} the quality being profound: such as",
+                "{bc} the quality of showing great knowledge or understanding",
+                "{bc} the quality of being very strongly felt"
+            ],
+            "stems": [
+                "profundity",
+                "profundities"
+            ],
+            "examples": [
+                "the {it}profundity{/it} of his thoughts/insights",
+                "Her books are a mixture of playfulness and {it}profundity{/it}.",
+                "the depth and {it}profundity{/it} of her feelings",
+                "philosophical {it}profundities{/it}"
+            ],
+            "uuid": "058a9be6-fafc-4719-80d4-0ec617545ba2",
+            "name": "profundity",
+            "particle": "noun"
+        },
+        "lastTimePlayed": "2020-05-15T19:50:29.783Z"
+    },
+    {
+        "score": {
+            "writing": [
+                0,
+                0
+            ],
+            "audio": [
+                0
+            ],
+            "definitionWord": [
+                0,
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0,
+                0
+            ],
+            "findAllDefs": [
+                0,
+                0
+            ]
+        },
+        "card": {
+            "id": "5",
+            "pronunciation": {
+                "transcription": "ˈbɑːdəli",
+                "audioUrl": null
+            },
+            "defs": [
+                "{bc} by moving someone's body",
+                "{bc} as an entire structure rather than in pieces"
+            ],
+            "stems": [
+                "bodily"
+            ],
+            "examples": [
+                "The police removed them {it}bodily{/it}. [={it}forcibly{/it}]",
+                "The blast lifted him {it}bodily{/it} into the air.",
+                "The house will have to be moved {it}bodily{/it} to the new site."
+            ],
+            "uuid": "f78402f3-646c-43a1-9f90-37b79a5f5c52",
+            "name": "bodily",
+            "particle": "adverb"
+        }
+    },
+    {
+        "id": "6",
+        "score": {
+            "writing": [
+                0
+            ],
+            "audio": [
+                0
+            ],
+            "definitionWord": [
+                0
+            ],
+            "audioChallenge": [
+                0
+            ],
+            "wordDefinition": [
+                0
+            ],
+            "findAllDefs": [
+                0
+            ]
+        },
+        "card": {
+            "pronunciation": {
+                "transcription": "ˈθraɪv",
+                "audioUrl": "https://media.merriam-webster.com/soundc11/t/thrive01.wav"
+            },
+            "defs": [
+                "{bc} to grow or develop successfully {bc} to flourish or succeed"
+            ],
+            "stems": [
+                "thrive",
+                "thrived",
+                "thriven",
+                "thriver",
+                "thrivers",
+                "thrives",
+                "thriving",
+                "throve",
+                "thrive on"
+            ],
+            "examples": [
+                "Business is {it}thriving{/it}. [={it}booming{/it}]",
+                "The region {it}thrived{/it} [={it}prospered{/it}] under his rule.",
+                "plants that {it}thrive{/it} [=grow well] in the desert"
+            ],
+            "uuid": "012f193d-ec7b-4994-9d4a-19e26ebd89c3",
+            "name": "thrive",
+            "particle": "verb"
+        }
+    }
+]

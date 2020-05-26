@@ -2,7 +2,12 @@ const express = require('express');
 const {check} = require('express-validator');
 
 const checkAuth = require('../middleware/check-auth');
-const {getUsersCards, addCard, deleteCard, getCard, search} = require('../controllers/words-controller');
+// const {getUsersCards, addCard, deleteCard, getCard, search} = require('../controllers/words-controller');
+const getUsersCards = require('../controllers/words-controller/get-users-cards');
+const addCard = require('../controllers/words-controller/add-card');
+const deleteCard = require('../controllers/words-controller/delete-card');
+const getCard = require('../controllers/words-controller/get-card');
+const search = require('../controllers/words-controller/search');
 
 const router = express.Router();
 
