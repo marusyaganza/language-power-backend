@@ -1,0 +1,58 @@
+[{
+    "meta": {
+        "id": "doll's house",
+        "uuid": "5a3797da-92af-4336-be86-c15865eacd22",
+        "src": "learners",
+        "section": "alpha",
+        "stems": [
+            "doll's house",
+            "dolls house",
+            "dolls' houses",
+            "dolls houses"
+        ],
+        "app-shortdef": {
+            "hw": "doll's house",
+            "fl": "noun",
+            "def": [
+                "{it}British{/it}"
+            ]
+        },
+        "offensive": false
+    },
+    "hwi": {
+        "hw": "doll's house"
+    },
+    "fl": "noun",
+    "ins": [
+        {
+            "il": "plural",
+            "if": "dolls' houses"
+        }
+    ],
+    "gram": "count",
+    "def": [
+        {
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "sls": [
+                                "British"
+                            ],
+                            "dt": [
+                                [
+                                    "text",
+                                    "{bc}{sx|dollhouse||}"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }
+    ],
+    "shortdef": [
+        "dollhouse"
+    ]
+}]
