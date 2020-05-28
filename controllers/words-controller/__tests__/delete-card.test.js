@@ -1,4 +1,3 @@
-// const mongoose = require('mongoose');
 const WordCard = require('../../../models/word-cards');
 const validator = require('express-validator');
 const deleteCard = require('../delete-card');

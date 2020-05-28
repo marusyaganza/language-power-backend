@@ -1,9 +1,8 @@
 const HttpError = require('../../../models/http-error');
-// const { formatData } = require('../../helpers');
 const axios = require('axios');
 const search = require('../search');
 const dictRes = require('./mocks/search-req.json');
-const searchRes = require('./mocks/search-resp.json');
+// const searchRes = require('./mocks/search-resp.json');
 
 jest.mock('axios');
 
@@ -35,6 +34,7 @@ describe('search', () => {
     axios.get.mockResolvedValue({ data: dictRes });
     search(req, { json }, next);
     expect(json).toHaveBeenCalledWith({});
+    // TODO find out why it's not working
     // expect(json).toHaveBeenCalledWith(searchRes);
   });
 });

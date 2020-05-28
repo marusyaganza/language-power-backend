@@ -1,4 +1,3 @@
-// const { config } = require('../../constants');
 const  { pickUnlearnt, generateRandomSample,  generateRandomNumber, generateData} = require('./helpers');
 
 const generateOptions = ({rawData, uuid, optionsNum, config}) => {
