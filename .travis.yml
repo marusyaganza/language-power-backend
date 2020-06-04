@@ -5,9 +5,12 @@ language: node_js
 node_js:
   - 13.14.0
 
-script:
-  - yarn eslint
-  - yarn coverage
+jobs:
+  include:
+    - stage: lint
+      script: eslint
+    - stage: test
+      script: yarn coverage
 
 notifications:
   slack:
