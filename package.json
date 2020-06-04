@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=8.10.0",
+    "yarn": ">=1.22.4"
   },
   "scripts": {
     "dev": "nodemon app.js",
