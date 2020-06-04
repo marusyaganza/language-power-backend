@@ -9,12 +9,5 @@ script:
   - yarn eslint
   - yarn coverage
 
-travis encrypt "$LANGUAGE_POWER:$SLACK_TOKEN" --add notifications.slack
-
 notifications:
 slack: $LANGUAGE_POWER:$SLACK_TOKEN
-
-# notifications:
-#   slack:
-#     rooms:
-#   - $LANGUAGE_POWER: $SLACK_TOKEN
