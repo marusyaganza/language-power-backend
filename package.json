@@ -14,6 +14,7 @@
     "eslint": "eslint --debug ./",
     "format-fix": "yarn eslint --fix",
     "coverage": "yarn jest --collect-coverage",
+    "ci": "yarn eslint && yarn coverage",
     "ready": "yarn format-fix && yarn coverage"
   },
   "author": "",
