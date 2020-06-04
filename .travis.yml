@@ -10,4 +10,4 @@ script:
   - yarn coverage
 
 notifications:
-  slack: language-power:P4Hu7bdkKbNaJ5kcCshbxqsC
+  secure: h+nc7hOxjlQfrurmn+0Q71Tut+bzKz33JR3xS3cvYX0u8IbG42PEPm3H8I9P7W0XLHj$
