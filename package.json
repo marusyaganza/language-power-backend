@@ -6,7 +6,7 @@
   "type": "commonjs",
   "engines": {
     "node": ">=8.10.0",
-    "yarn": ">=1.22.4"
+    "yarn": ">=1.22.0"
   },
   "scripts": {
     "dev": "nodemon app.js",
