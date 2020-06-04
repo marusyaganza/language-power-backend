@@ -3,4 +3,8 @@ dist: bionic
 language: node_js
 
 node_js:
- - 13.14.0
+  - 13.14.0
+
+script:
+  - yarn eslint
+  - yarn coverage
