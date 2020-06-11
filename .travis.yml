@@ -1,0 +1,17 @@
+dist: bionic
+
+language: node_js
+
+node_js:
+  - 13.14.0
+
+jobs:
+  include:
+    - stage: lint
+      script: eslint
+    - stage: test
+      script: yarn coverage
+
+notifications:
+  slack:
+    secure: ILM2X7rWhcx/dBnRzAVzxHOtuIqeoJijp9UNjR/2ojLVgbSVJCL4CPklzh0lCvMj1XHL+SZW8LJf0qykazDCPRpVrsE+BTXfT0pyQ8iXp5aCpWx10lOwU12tO9jpwvtfRe2ou2I/7VQhNzPjWFYD7EfZuKGJbco8HnyWY+g3XBBb7Z74syxTWeSYWK2sP/ESw31GNLLehULn7bAsQ/m6JxLu44S3dSB9HIryi/vB50r+2+0z5gZ1gP+NzDdIsPlcwuaDdz8mFgxjxosXW4n+nZCKNFvy1OWu7iPGozpMvsiBop5hb2NZkoTWt3MzcFbRD7e25HCw9SgXC/c0w1rvLJR9m/TkIX8rPdNxIYtsXEW9J+R61Mb8TtATVjlglQc907OGOc5Pu218QvW6qK8ljDDh35uX1CW07MRuHCUX5LSJChEfvAssDBVkM5GtJnbTRuTQVMoxPf/fZOVU5iGznmwgL1DDr5p8Eez0wJjeU0MXyngFN8SNojUJP4+FPUEx0d0BvVoNtyQCFkXKgmzRJTa4xvO6SNnsbG6bp3QepDfKOPtI/jLsLF8G7ncTC0iLEwiF/zGLqnB1V8QenaEDsoE6jH/RcuvvYk220WBM9AvFMGXjE24SXnQGTpI6Z0r192eu+731MsHain8AufPDGdZMnY9PRT8IFXHJFrsg2MI=

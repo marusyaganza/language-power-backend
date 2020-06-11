@@ -1,0 +1,258 @@
+[{
+    "meta": {
+        "id": "ball:3",
+        "uuid": "855cb64d-6e1d-4b48-b070-270ff1df6d8a",
+        "src": "learners",
+        "section": "alpha",
+        "stems": [
+            "ball",
+            "balls",
+            "on the ball",
+            "have a ball"
+        ],
+        "app-shortdef": {
+            "hw": "ball:3",
+            "fl": "noun",
+            "def": [
+                "{bc} a large formal party for dancing"
+            ]
+        },
+        "offensive": false
+    },
+    "hom": 3,
+    "hwi": {
+        "hw": "ball",
+        "altprs": [
+            {
+                "ipa": "ˈbɑːl"
+            }
+        ]
+    },
+    "fl": "noun",
+    "ins": [
+        {
+            "il": "plural",
+            "if": "balls"
+        }
+    ],
+    "gram": "count",
+    "def": [
+        {
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "{bc}a large formal party for dancing "
+                                ],
+                                [
+                                    "vis",
+                                    [
+                                        {
+                                            "t": "Cinderella went to the {it}ball{/it} and danced with the prince."
+                                        },
+                                        {
+                                            "t": "They were invited to the governor's {it}ball{/it}."
+                                        }
+                                    ]
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }
+    ],
+    "dros": [
+        {
+            "drp": "have a ball",
+            "def": [
+                {
+                    "sseq": [
+                        [
+                            [
+                                "sense",
+                                {
+                                    "sls": [
+                                        "informal"
+                                    ],
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}to have fun {bc}to spend time in a very enjoyable way "
+                                        ],
+                                        [
+                                            "vis",
+                                            [
+                                                {
+                                                    "t": "Everyone {it}had a ball{/it} at the party."
+                                                }
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            ]
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "dxnls": [
+        "compare {dxt|ball:1||}"
+    ],
+    "shortdef": [
+        "a large formal party for dancing"
+    ]
+},
+{
+    "meta": {
+        "id": "ball and chain",
+        "uuid": "454be9bb-0717-43e7-bac1-b31312898eee",
+        "src": "learners",
+        "section": "alpha",
+        "stems": [
+            "ball and chain"
+        ],
+        "app-shortdef": {
+            "hw": "ball and chain",
+            "fl": "noun",
+            "def": [
+                "{bc} something that limits someone's freedom or ability to do things"
+            ]
+        },
+        "offensive": false
+    },
+    "hwi": {
+        "hw": "ball and chain"
+    },
+    "fl": "noun",
+    "gram": "singular",
+    "def": [
+        {
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "{bc}something that limits someone's freedom or ability to do things "
+                                ],
+                                [
+                                    "vis",
+                                    [
+                                        {
+                                            "t": "Drugs are a {it}ball and chain{/it} for many people."
+                                        },
+                                        {
+                                            "t": "({it}old-fashioned{/it}) He referred to his wife as {ldquo}the {it}ball and chain{/it}.{rdquo}"
+                                        }
+                                    ]
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }
+    ],
+    "shortdef": [
+        "something that limits someone's freedom or ability to do things"
+    ]
+},
+{
+    "meta": {
+        "id": "ball bearing",
+        "uuid": "88d7883d-c774-49e0-9add-fef2d3a25244",
+        "src": "learners",
+        "section": "alpha",
+        "target": {
+            "tuuid": "84bf6311-d7f5-4099-a3cb-bed0ea9c26ca",
+            "tsrc": "collegiate"
+        },
+        "stems": [
+            "ball bearing",
+            "ball bearings"
+        ],
+        "app-shortdef": {
+            "hw": "ball bearing",
+            "fl": "noun",
+            "def": [
+                "{bc} a part of a machine in which another part (such as a metal pole) turns easily",
+                "{bc} one of the balls in a ball bearing"
+            ]
+        },
+        "offensive": false
+    },
+    "hwi": {
+        "hw": "ball bearing"
+    },
+    "fl": "noun",
+    "ins": [
+        {
+            "il": "plural",
+            "ifc": "~ -ings",
+            "if": "ball bearings"
+        }
+    ],
+    "gram": "count",
+    "def": [
+        {
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "1",
+                            "dt": [
+                                [
+                                    "text",
+                                    "{bc}a part of a machine in which another part (such as a metal pole) turns easily "
+                                ],
+                                [
+                                    "snote",
+                                    [
+                                        [
+                                            "t",
+                                            "A ball bearing is made up of several small metal balls that fit between two metal rings."
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "2",
+                            "dt": [
+                                [
+                                    "text",
+                                    "{bc}one of the balls in a ball bearing"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }
+    ],
+    "artl": [
+        {
+            "artid": "ballbearings.tif",
+            "capt": "ball bearings",
+            "dim": "68.1,79.8"
+        }
+    ],
+    "shortdef": [
+        "a part of a machine in which another part (such as a metal pole) turns easily",
+        "one of the balls in a ball bearing"
+    ]
+}]
