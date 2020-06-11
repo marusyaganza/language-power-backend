@@ -51,7 +51,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `${process.env.DB_URL}/${process.env.DB_NAME}?retryWrites=true&w=majority`
+    `${process.env.DB_URL}/${process.env.DB_NAME}?retryWrites=true&w=majority`,
+    { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   )
   .then(() => {
     app.listen(process.env.PORT);
