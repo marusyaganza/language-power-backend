@@ -93,7 +93,8 @@ const combineArr = (arr = []) => {
       return result.filter(item => item.name.includes(criteria));
     };
 
-    const formatData = (initialData, query) => {
+    const formatData = (initialData, queryString) => {
+      const query = queryString.toLowerCase();
         const result = {
             suggestions: [],
             match: [],
