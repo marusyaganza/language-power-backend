@@ -17,7 +17,7 @@ async function signup(req, res, next) {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     if (process.env.mode === 'dev') {
-      // console.error(errors.errors);
+      console.error(errors.errors);
     }
     return next(
       new HttpError('invalid inputs passed, please check your data', 422)
@@ -45,7 +45,7 @@ async function signup(req, res, next) {
     hashedPassword = await bcrypt.hash(password, 12);
   } catch (err) {
     if (process.env.mode === 'dev') {
-      // console.error(err);
+      console.error(err);
     }
     return next(new HttpError('Could not create user, pleate try again', 500));
   }
@@ -69,7 +69,7 @@ async function signup(req, res, next) {
     });
   } catch (err) {
     if (process.env.mode === 'dev') {
-      // console.error(err);
+      console.error(err);
     }
     return next(new HttpError('Login failed, please try again', 500));
   }
