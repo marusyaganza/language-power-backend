@@ -11,7 +11,9 @@ async function search(req, res, next) {
     formattedRes = formatData(response.data, query);
   } catch (err) {
     if (process.env.mode === 'dev') {
+      // TODO use the real logger for development
       console.error(err);
+      // TODO delete console log from here and find the way to send error details to Sentry but not to the client
     }
     next(new HttpError('word search failed', 500));
   }

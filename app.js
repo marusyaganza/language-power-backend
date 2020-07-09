@@ -58,5 +58,6 @@ mongoose
     app.listen(process.env.PORT);
   })
   .catch((err) => {
+    // TODO send this to Sentry
     console.error(err);
   });
