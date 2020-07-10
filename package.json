@@ -29,13 +29,13 @@
     "uuid": "^3.4.0"
   },
   "dependencies": {
-    "@sentry/node": "5.16.0",
+    "@sentry/node": "5.17.0",
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.7",
+    "mongoose": "^5.9.18",
     "mongoose-unique-validator": "^2.0.3"
   }
 }
