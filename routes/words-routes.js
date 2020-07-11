@@ -7,6 +7,7 @@ const addCard = require('../controllers/words-controller/add-card');
 const deleteCard = require('../controllers/words-controller/delete-card');
 const getCard = require('../controllers/words-controller/get-card');
 const search = require('../controllers/words-controller/search');
+const mockSearch = require('../controllers/words-controller/search');
 
 const router = express.Router();
 
@@ -17,6 +18,8 @@ const validationRules = [
 ];
 
 router.get('/search/:query', search);
+
+router.get('/mocksearch/:query', mockSearch);
 
 router.get('/card/:cardId', getCard);
 

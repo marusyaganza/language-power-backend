@@ -1,0 +1,1408 @@
+[
+    {
+        "meta": {
+            "id": "ball:1",
+            "uuid": "8e3b4ecd-33ab-4345-bec7-14560aac1853",
+            "src": "learners",
+            "section": "alpha",
+            "highlight": "yes",
+            "stems": [
+                "ball",
+                "balls",
+                "on the ball",
+                "carry the ball",
+                "drop the ball",
+                "get/set/start the ball rolling",
+                "get the ball rolling",
+                "set the ball rolling",
+                "start the ball rolling",
+                "keep the ball rolling",
+                "keep your eye on the ball",
+                "play ball",
+                "the ball is in your court"
+            ],
+            "app-shortdef": {
+                "hw": "ball:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} a usually round object that is used in a game or sport or as a toy",
+                    "{bc} something that has a round shape",
+                    "{bc} a round bullet shot out of an old-fashioned gun"
+                ]
+            },
+            "offensive": true
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "ball",
+            "prs": [
+                {
+                    "ipa": "ˈbɑːl",
+                    "sound": {
+                        "audio": "ball0001"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "balls"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a usually round object that is used in a game or sport or as a toy "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a tennis/soccer {it}ball{/it}"
+                                            },
+                                            {
+                                                "t": "golf/billiard/bowling {it}balls{/it}"
+                                            },
+                                            {
+                                                "t": "a toy rubber {it}ball{/it}"
+                                            },
+                                            {
+                                                "t": "kick/throw/hit/catch/bounce/dribble the {it}ball{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something that has a round shape "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}ball{/it} of string"
+                                            },
+                                            {
+                                                "t": "She uses cotton {it}balls{/it} to clean her face."
+                                            },
+                                            {
+                                                "t": "eating rice/melon {it}balls{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a round bullet shot out of an old-fashioned gun"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the rounded part of the human foot that is at the bottom of the foot and behind the toes"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually plural "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "He stood on the {it}balls{/it} of his feet."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see picture at {dxt|foot||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "5",
+                                "sls": [
+                                    "informal + often offensive"
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|testicle||}"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually plural "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "She kicked him in the {it}balls{/it}."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "bnote": "balls",
+                                "sgram": "plural",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the courage that is needed to do something "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "You don't have the/enough {it}balls{/it} [={it}guts{/it}, {it}nerve{/it}] to fight me."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "bnote": "balls",
+                                "sgram": "plural",
+                                "sls": [
+                                    "British"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|nonsense||}"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used as an interjection to express disapproval or annoyance"
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "6",
+                                "sgram": "count"
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "sls": [
+                                    "sports"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a ball that is thrown or hit "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She hit a high arching {it}ball{/it} over the net."
+                                            },
+                                            {
+                                                "t": "I thought the {it}ball{/it} [=serve] was good, but my opponent said it was out."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|air ball||} {dxt|curveball||} {dxt|fastball||} {dxt|fly ball||} {dxt|ground ball||} {it}fair ball{/it} at {dxt|fair:1||} {it}foul ball{/it} at {dxt|foul:1||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sls": [
+                                    "baseball"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a pitch that does not go through the proper area and that the batter does not swing at "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The first pitch was a {it}ball{/it} but the next two pitches were strikes."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "carry the ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "US",
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to have the responsibility for doing something "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "No one else is available to make the arrangements, so it's up to you to {it}carry the ball{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "drop the ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "US",
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to make a mistake especially by not doing something important "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "I think the mayor {it}dropped the ball{/it} by not hiring more police officers."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "get/set/start the ball rolling",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to begin an activity or process "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She tried to {it}get the ball rolling{/it} by asking him a few questions."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "keep the ball rolling",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to cause an activity or process to continue "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "I've started the preparations for the party, but it's up to you to {it}keep the ball rolling{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "keep your eye on the ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to continue thinking about or giving attention to something important that you want to do or achieve "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She really needs to {it}keep her eye on the ball{/it} [=stay focused] if she wants to win the election."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "on the ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}mentally prepared {bc}aware of what is happening and ready to do what is needed or wanted "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "With so many intelligent students, the teacher must always be {it}on the ball{/it}."
+                                                    },
+                                                    {
+                                                        "t": "Their lawyer was really {it}on the ball{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "play ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "1",
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to begin or continue to play a game with a ball (such as baseball) "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "{ldquo}Let's {it}play ball{/it}!{rdquo} shouted the umpire."
+                                                    },
+                                                    {
+                                                        "t": "We went outside to {it}play{/it} some {it}ball{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "2",
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to do what other people want you to do {bc}to cooperate or work with other people "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "He refused to {it}play ball{/it} with the police."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "the ball is in your court",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "snote",
+                                                [
+                                                    [
+                                                        "t",
+                                                        "If {it}the ball is in your court{/it}, you are the person who is expected or required to do something."
+                                                    ],
+                                                    [
+                                                        "vis",
+                                                        [
+                                                            {
+                                                                "t": "What do you think we should do now? {it}The ball is in your court{/it}."
+                                                            },
+                                                            {
+                                                                "t": "She's waiting for {it}the ball to be in her court{/it}."
+                                                            }
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dxnls": [
+            "compare {dxt|ball:3||}"
+        ],
+        "artl": [
+            {
+                "artid": "ball_rev.eps",
+                "dim": "191,288"
+            }
+        ],
+        "shortdef": [
+            "a usually round object that is used in a game or sport or as a toy",
+            "something that has a round shape",
+            "a round bullet shot out of an old-fashioned gun"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball:2",
+            "uuid": "908a56c8-aa20-440d-bd0c-735d956ff1f4",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "be866f14-c794-4dee-bc3b-aee0002daaaa",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ball",
+                "balled",
+                "balling",
+                "balls"
+            ],
+            "app-shortdef": {
+                "hw": "ball:2",
+                "fl": "verb",
+                "def": [
+                    "{bc} to form (something) into a ball"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "ball",
+            "altprs": [
+                {
+                    "ipa": "ˈbɑːl"
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "balls"
+            },
+            {
+                "if": "balled"
+            },
+            {
+                "if": "ball*ing"
+            }
+        ],
+        "gram": "+ obj",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to form (something) into a ball "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I stood up quickly and {it}balled{/it} my hands into fists."
+                                            },
+                                            {
+                                                "t": "He {it}balled{/it} the letter in his hands and threw it in the trash."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often + {it}up{/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "He {it}balled up{/it} the letter and threw it in the trash."
+                                                        },
+                                                        {
+                                                            "t": "His clothes were {it}balled up{/it} on the floor."
+                                                        },
+                                                        {
+                                                            "t": "She lay in bed {it}balled up{/it} [={it}curled up{/it}] under the blankets."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to form (something) into a ball —often + up"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball:3",
+            "uuid": "855cb64d-6e1d-4b48-b070-270ff1df6d8a",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "ball",
+                "balls",
+                "on the ball",
+                "have a ball"
+            ],
+            "app-shortdef": {
+                "hw": "ball:3",
+                "fl": "noun",
+                "def": [
+                    "{bc} a large formal party for dancing"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 3,
+        "hwi": {
+            "hw": "ball",
+            "altprs": [
+                {
+                    "ipa": "ˈbɑːl"
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "balls"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a large formal party for dancing "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Cinderella went to the {it}ball{/it} and danced with the prince."
+                                            },
+                                            {
+                                                "t": "They were invited to the governor's {it}ball{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "have a ball",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to have fun {bc}to spend time in a very enjoyable way "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "Everyone {it}had a ball{/it} at the party."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dxnls": [
+            "compare {dxt|ball:1||}"
+        ],
+        "shortdef": [
+            "a large formal party for dancing"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball and chain",
+            "uuid": "454be9bb-0717-43e7-bac1-b31312898eee",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "ball and chain"
+            ],
+            "app-shortdef": {
+                "hw": "ball and chain",
+                "fl": "noun",
+                "def": [
+                    "{bc} something that limits someone's freedom or ability to do things"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball and chain"
+        },
+        "fl": "noun",
+        "gram": "singular",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something that limits someone's freedom or ability to do things "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Drugs are a {it}ball and chain{/it} for many people."
+                                            },
+                                            {
+                                                "t": "({it}old-fashioned{/it}) He referred to his wife as {ldquo}the {it}ball and chain{/it}.{rdquo}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "something that limits someone's freedom or ability to do things"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball bearing",
+            "uuid": "88d7883d-c774-49e0-9add-fef2d3a25244",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "84bf6311-d7f5-4099-a3cb-bed0ea9c26ca",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ball bearing",
+                "ball bearings"
+            ],
+            "app-shortdef": {
+                "hw": "ball bearing",
+                "fl": "noun",
+                "def": [
+                    "{bc} a part of a machine in which another part (such as a metal pole) turns easily",
+                    "{bc} one of the balls in a ball bearing"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball bearing"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ -ings",
+                "if": "ball bearings"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a part of a machine in which another part (such as a metal pole) turns easily "
+                                    ],
+                                    [
+                                        "snote",
+                                        [
+                                            [
+                                                "t",
+                                                "A ball bearing is made up of several small metal balls that fit between two metal rings."
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}one of the balls in a ball bearing"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "artl": [
+            {
+                "artid": "ballbearings.tif",
+                "capt": "ball bearings",
+                "dim": "68.1,79.8"
+            }
+        ],
+        "shortdef": [
+            "a part of a machine in which another part (such as a metal pole) turns easily",
+            "one of the balls in a ball bearing"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball boy",
+            "uuid": "79bc8225-d4b9-4571-9c2b-ffca222e6c17",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "5d252183-9a7a-4b15-b101-c88eba3e878c",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ball boy",
+                "ball boys"
+            ],
+            "app-shortdef": {
+                "hw": "ball boy",
+                "fl": "noun",
+                "def": [
+                    "{bc} a boy who picks up balls that go out of play during a game in tennis, baseball, etc."
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball boy"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ boys",
+                "if": "ball boys"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a boy who picks up balls that go out of play during a game in tennis, baseball, etc."
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a boy who picks up balls that go out of play during a game in tennis, baseball, etc."
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball game",
+            "uuid": "e40ad5f0-efa4-461f-a723-a2c6f7cb537d",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "6a358977-02fb-4bb0-881f-f6de128cd63d",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ball game",
+                "ball games",
+                "a whole new ball game",
+                "a different ball game"
+            ],
+            "app-shortdef": {
+                "hw": "ball game",
+                "fl": "noun",
+                "def": [
+                    "{bc} any game that is played with a ball",
+                    "{it}US{/it} {bc} a baseball game",
+                    "{it}informal{/it} used in phrases like {phrase}a whole new ball game{/phrase} and {phrase}a different ball game{/phrase} to describe a situation or activity that has changed"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball game"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ games",
+                "if": "ball games"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any game that is played with a ball "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He was popular because he was good at {it}ball games{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sls": [
+                                    "US"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a baseball game "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Dad took us to a {it}ball game{/it}."
+                                            },
+                                            {
+                                                "t": "watching a {it}ball game{/it} on TV"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used in phrases like {phrase}a whole new ball game{/phrase} and {phrase}a different ball game{/phrase} to describe a situation or activity that has changed "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "The sport of car racing is {it}a whole new ball game{/it}."
+                                                        },
+                                                        {
+                                                            "t": "Raising children is {it}a different ball game{/it} now."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "any game that is played with a ball",
+            "a baseball game",
+            "—used in phrases like a whole new ball game and a different ball game to describe a situation or activity that has changed"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball girl",
+            "uuid": "68d78e89-3d97-44c2-bf2a-e7a6603d3dfa",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "7db27557-2bc2-4ef9-a7b6-692c5c2de2b8",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "ball girl",
+                "ball girls"
+            ],
+            "app-shortdef": {
+                "hw": "ball girl",
+                "fl": "noun",
+                "def": [
+                    "{bc} a girl who picks up balls that go out of play during a game in tennis, baseball, etc."
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball girl"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ girls",
+                "if": "ball girls"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a girl who picks up balls that go out of play during a game in tennis, baseball, etc."
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a girl who picks up balls that go out of play during a game in tennis, baseball, etc."
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball of fire",
+            "uuid": "efed1762-35be-490d-b054-4e0330da528a",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "ball of fire",
+                "balls of fire"
+            ],
+            "app-shortdef": {
+                "hw": "ball of fire",
+                "fl": "noun",
+                "def": [
+                    "{it}chiefly US{/it}, {it}informal{/it} {bc} a person who is very active and has a lot of energy"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball of fire"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "balls of fire"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "chiefly US",
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person who is very active and has a lot of energy "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "That guy is a real {it}ball of fire{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a person who is very active and has a lot of energy"
+        ]
+    },
+    {
+        "meta": {
+            "id": "ball of wax",
+            "uuid": "c342785e-9c2b-48f0-b958-307dbf44799e",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "ball of wax",
+                "whole ball of wax"
+            ],
+            "app-shortdef": {
+                "hw": "ball of wax",
+                "fl": "noun",
+                "def": [
+                    "{bc} a situation or set of conditions",
+                    "{bc} a collection of items or objects"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "ball of wax"
+        },
+        "fl": "noun",
+        "gram": "singular",
+        "def": [
+            {
+                "sls": [
+                    "US",
+                    "informal"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a situation or set of conditions "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He's a good amateur, but playing basketball at the professional level is an entirely different {it}ball of wax{/it}. [=an entirely different thing]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a collection of items or objects "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He won the car, the furniture, and the tropical vacation—the {phrase}whole ball of wax{/phrase}! [={it}everything{/it}]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a situation or set of conditions",
+            "a collection of items or objects"
+        ]
+    }
+]

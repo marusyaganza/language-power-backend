@@ -1,0 +1,2954 @@
+[
+    {
+        "meta": {
+            "id": "hit:1",
+            "uuid": "8fe0ac62-1e44-4e4e-a1b1-713dd6959f34",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "26c1dae2-d8bb-41a3-914b-272d7efec107",
+                "tsrc": "collegiate"
+            },
+            "highlight": "yes",
+            "stems": [
+                "hit",
+                "hit it big",
+                "hit it off",
+                "hit on",
+                "hit the books",
+                "hit the ceiling",
+                "hit the fan",
+                "hit the ground running",
+                "hit the hay",
+                "hit the high points",
+                "hit the high spots",
+                "hit the jackpot",
+                "hit the nail on the head",
+                "hit the road",
+                "hit the roof",
+                "hit the sack",
+                "hit the spot",
+                "hit the wall",
+                "hits",
+                "hitter",
+                "hitters",
+                "hitting",
+                "hit a nerve",
+                "hit a/the wall",
+                "hit a wall",
+                "hit back",
+                "hit home",
+                "hit it",
+                "hit big",
+                "hit on/upon",
+                "hit upon",
+                "hit out at",
+                "hit someone for six",
+                "hit the buffers",
+                "hit the deck",
+                "hit the dirt",
+                "hit the ground",
+                "hit the panic button",
+                "hit the skids",
+                "hit the streets",
+                "hit the pavement",
+                "hit the town",
+                "hit the trail",
+                "hit up",
+                "hit your stride",
+                "know what hit you",
+                "hit hard",
+                "hard hit",
+                "hit him where it hurts",
+                "hit bottom",
+                "hit the big four-oh/five-oh",
+                "hit the big five-oh",
+                "hit the big four-oh",
+                "hit the street",
+                "hit the lights",
+                "hit the switch",
+                "hit the brakes",
+                "hit the gas",
+                "hit the mark"
+            ],
+            "app-shortdef": {
+                "hw": "hit:1",
+                "fl": "verb",
+                "def": [
+                    "{bc} to move your hand, a bat, etc., quickly so that it touches someone or something in a forceful or violent way",
+                    "{bc} to cause (something, such as a ball) to move by hitting it forcefully with a bat, racket, etc.",
+                    "{bc} to touch (something or someone) in a forceful or violent way after moving at a high speed"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "hit",
+            "prs": [
+                {
+                    "ipa": "ˈhɪt",
+                    "sound": {
+                        "audio": "hit00001"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "hits"
+            },
+            {
+                "if": "hit"
+            },
+            {
+                "if": "hit*ting"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to move your hand, a bat, etc., quickly so that it touches someone or something in a forceful or violent way "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She told her son to stop {it}hitting{/it} his sister."
+                                            },
+                                            {
+                                                "t": "She {it}hit{/it} him hard with her purse."
+                                            },
+                                            {
+                                                "t": "He {it}hit{/it} the fence with a stick. = He {it}hit{/it} a stick against/on the fence."
+                                            },
+                                            {
+                                                "t": "The boxers {it}hit{/it} each other with their fists."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The boxers were {it}hitting{/it} furiously at each other."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to cause (something, such as a ball) to move by hitting it forcefully with a bat, racket, etc. "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He {it}hit{/it} a fastball (over the fence) for a home run."
+                                            },
+                                            {
+                                                "t": "She {it}hit{/it} the ball right to the shortstop."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to touch (something or someone) in a forceful or violent way after moving at a high speed "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The ball {it}hit{/it} the house."
+                                            },
+                                            {
+                                                "t": "The plate shattered when it {it}hit{/it} the floor."
+                                            },
+                                            {
+                                                "t": "The tank was {it}hit{/it} by enemy fire."
+                                            },
+                                            {
+                                                "t": "He was {it}hit{/it} by a car."
+                                            },
+                                            {
+                                                "t": "The ship {it}hit{/it} an iceberg."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The plate shattered when it {it}hit{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "d",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to cause or allow (something, such as part of your body) to touch something in a forceful or violent way "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I accidentally {it}hit{/it} my head on/against the side of the door while I was getting into the car."
+                                            },
+                                            {
+                                                "t": "She {it}hit{/it} her elbow on the edge of the table."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2 a",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to attack (something or someone) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Our plan is to {it}hit{/it} the enemy before they can {it}hit{/it} us."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to affect (something or someone) in a harmful or damaging way "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The ship was {it}hit{/it} by a sudden storm."
+                                            },
+                                            {
+                                                "t": "A powerful earthquake {it}hit{/it} the city."
+                                            },
+                                            {
+                                                "t": "Many families have been {phrase}hit hard{/phrase} by the layoffs. = Many families have been {phrase}hard hit{/phrase} by the layoffs. [=many families have been badly affected/hurt by the layoffs]"
+                                            },
+                                            {
+                                                "t": "If you really want to teach your son a lesson you should {phrase}hit him where it hurts{/phrase} and take away his cell phone."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Many people were unprepared when the storm {it}hit{/it}."
+                                            },
+                                            {
+                                                "t": "The layoffs have {it}hit hard{/it} here."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "3",
+                                "sgram": "+ obj"
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to come to (something) by chance or accident while you are moving "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "We {it}hit{/it} a west wind coming out of port."
+                                            },
+                                            {
+                                                "t": "I was late because I {it}hit{/it} a traffic jam on the way over."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to begin to have or experience (problems, trouble, etc.) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The project went smoothly at first, but then we started to {it}hit{/it} [={it}encounter{/it}] some problems."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "sgram": "+ obj",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to become suddenly or completely clear to (someone) {bc}{sx|strike||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "It suddenly {it}hit{/it} [={it}occurred to{/it}] me that I was doing something wrong. [=I suddenly realized that I was doing something wrong]"
+                                            },
+                                            {
+                                                "t": "The importance of the victory hasn't really {it}hit{/it} her yet."
+                                            },
+                                            {
+                                                "t": "I was just about to give up when the solution {it}hit{/it} me."
+                                            },
+                                            {
+                                                "t": "When you meet him, the first thing that {it}hits{/it} you [=the first thing that you notice] is his air of confidence."
+                                            },
+                                            {
+                                                "t": "The smell {it}hit{/it} me [=I noticed the smell] as soon as I opened the door."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "5",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to get or come to (a goal, level, etc.) {bc}{sx|reach||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He {it}hit{/it} 100 mph on his motorcycle."
+                                            },
+                                            {
+                                                "t": "They expect the temperature to {it}hit{/it} 90 this afternoon."
+                                            },
+                                            {
+                                                "t": "Sales {it}hit{/it} $100 million last year alone."
+                                            },
+                                            {
+                                                "t": "Gold prices {it}hit{/it} an all-time high last week."
+                                            },
+                                            {
+                                                "t": "a singer who can {it}hit{/it} the high notes"
+                                            },
+                                            {
+                                                "t": "He kept digging until he {it}hit{/it} [={it}struck{/it}] water."
+                                            },
+                                            {
+                                                "t": "The stock market {phrase}hit bottom{/phrase}. [=reached an extremely low point]"
+                                            },
+                                            {
+                                                "t": "({it}informal{/it}) Next year he'll {phrase}hit the big four-oh/five-oh{/phrase}. [=turn 40/50 years of age]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "sgram": "+ obj",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to arrive or appear at, in, or on (a place) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "We {it}hit{/it} [=went to] the beach nearly every day this summer."
+                                            },
+                                            {
+                                                "t": "They got up early and headed out to {it}hit{/it} the (ski) slopes. [=to go skiing]"
+                                            },
+                                            {
+                                                "t": "The magazine's new issue {it}hits{/it} newsstands tomorrow. [=the new issue becomes available on newsstands tomorrow]"
+                                            },
+                                            {
+                                                "t": "The new product should {it}hit{/it} the shelves/market soon. = The new product should {it}hit{/it} stores soon. [=the new product should be available in stores soon]"
+                                            },
+                                            {
+                                                "t": "These new illegal drugs only recently {phrase}hit the street{/phrase}. [=became available for illegal purchase]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "7",
+                                "sgram": "+ obj",
+                                "sls": [
+                                    "informal"
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to turn (something) on or off with a switch "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Could someone please {phrase}hit the lights{/phrase}?"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to move (a switch) to an on or off position "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The lights came on when she {phrase}hit the switch{/phrase}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to push down on (the brake pedal or accelerator in a vehicle) in a sudden and forceful way "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I had to {phrase}hit the brakes{/phrase} hard to avoid an accident."
+                                            },
+                                            {
+                                                "t": "She suddenly {it}hit{/it} the accelerator and sped away. = ({it}US{/it}) She suddenly {phrase}hit the gas{/phrase} and sped away."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "8 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to succeed in hitting (something aimed at) with a shot, throw, etc. "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}hit{/it} the bull's-eye"
+                                            },
+                                            {
+                                                "t": "{it}hit{/it} the target"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "sometimes used figuratively "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "Her criticism really {phrase}hit the mark{/phrase}. [=her criticism was very accurate]"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The first shot {it}hit{/it} but the second shot missed."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to succeed in making (a shot) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She {it}hit{/it} [={it}made, sank{/it}] 40 percent of her shots last season."
+                                            },
+                                            {
+                                                "t": "She {it}hit{/it} her first basket but then missed the next one."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to succeed in making a pass to (another player) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The quarterback {it}hit{/it} the wide receiver (with a pass) for a touchdown."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "9 a",
+                                "sgram": "no obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to try to hit the ball with a bat in baseball, cricket, or a similar game "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "It's your turn to {it}hit{/it}. [={it}bat{/it}]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to produce (a home run, a ground ball, etc.) by batting "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He {it}hit{/it} 30 home runs last year."
+                                            },
+                                            {
+                                                "t": "He {it}hit{/it} a ground ball to the shortstop."
+                                            },
+                                            {
+                                                "t": "She {it}hit{/it} a double to left field."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "sgram": "no obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to have a specified batting average "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "This year he's {it}hitting{/it} [={it}batting{/it}] .300. [=his batting average is .300]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "d",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to hit the pitches thrown by (a pitcher) "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He has {it}hit{/it} this pitcher well/poorly in the past."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He has {it}hit{/it} well/poorly against this pitcher in the past."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "10",
+                                "lbs": [
+                                    "not used in progressive tenses"
+                                ],
+                                "sgram": "+ obj",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to deal another card to (a player in blackjack) "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}Hit{/it} me. [=deal another card to me]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "hit a nerve",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|nerve||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit a/the wall",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|wall:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit back",
+                "gram": "phrasal verb",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to attack or criticize someone who has attacked or criticized you "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "If you hit me, I'll {it}hit back{/it}."
+                                                    },
+                                                    {
+                                                        "t": "The team {it}hit back{/it} with a touchdown of their own."
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "uns",
+                                                [
+                                                    [
+                                                        [
+                                                            "text",
+                                                            "often + {it}at{/it} "
+                                                        ],
+                                                        [
+                                                            "vis",
+                                                            [
+                                                                {
+                                                                    "t": "The Senator {it}hit back at{/it} his critics."
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit home",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|home:2||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit it",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "uns",
+                                                [
+                                                    [
+                                                        [
+                                                            "text",
+                                                            "used to tell a group of musicians to begin playing "
+                                                        ],
+                                                        [
+                                                            "vis",
+                                                            [
+                                                                {
+                                                                    "t": "{it}Hit it{/it}, boys! [=let's begin playing music]"
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit it big",
+                "vrs": [
+                    {
+                        "vl": "or",
+                        "va": "hit big"
+                    }
+                ],
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|big||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit it off",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to become friends {bc}to get along well "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The two of them {it}hit it off{/it} (with each other) immediately."
+                                                    },
+                                                    {
+                                                        "t": "Though we work together, we've never really {it}hit it off{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit on/upon",
+                "gram": "phrasal verb",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "1",
+                                        "phrasev": [
+                                            {
+                                                "pva": "hit on (someone)"
+                                            }
+                                        ],
+                                        "sls": [
+                                            "US",
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to talk to (someone) in order to try to start a sexual relationship "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She's always being/getting {it}hit on{/it} at the gym."
+                                                    },
+                                                    {
+                                                        "t": "Some drunk at the bar was {it}hitting on{/it} her."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ],
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sn": "2",
+                                        "phrasev": [
+                                            {
+                                                "pva": "hit on/upon (something)"
+                                            }
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to succeed in finding (something, such as a solution) "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She thought about the problem for days before she finally {it}hit on{/it} a solution."
+                                                    },
+                                                    {
+                                                        "t": "He {it}hit on{/it} a new way to do things."
+                                                    },
+                                                    {
+                                                        "t": "We {it}hit upon{/it} the answer accidentally."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit out at",
+                "gram": "phrasal verb",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sphrasev": {
+                                            "phrs": [
+                                                {
+                                                    "pva": "hit out at (someone)"
+                                                }
+                                            ]
+                                        },
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to make an angry attack against (someone) "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The singer {it}hit out at{/it} [=(more commonly) {it}lashed out at{/it}] her critics."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit someone for six",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|six||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the books",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|book:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the buffers",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|buffer:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the deck",
+                "vrs": [
+                    {
+                        "vl": "or",
+                        "va": "hit the dirt"
+                    },
+                    {
+                        "vl": "or",
+                        "va": "hit the ground"
+                    }
+                ],
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to drop down to the ground or floor suddenly "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She {it}hit the deck{/it} when the gunfire started."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the fan",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|fan:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the ground running",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to begin an effort or activity in a quick, energetic, and effective way "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The new administration {it}hit the ground running{/it} after the inauguration."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the hay",
+                "vrs": [
+                    {
+                        "vl": "or",
+                        "va": "hit the sack"
+                    }
+                ],
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to go to bed "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "I'm tired. I'm going to {it}hit the hay{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the jackpot",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|jackpot||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the nail on the head",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to be exactly right "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "He {it}hit the nail on the head{/it} with that analysis."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the panic button",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|panic button||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the road",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|road||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the roof",
+                "vrs": [
+                    {
+                        "vl": "or",
+                        "va": "hit the ceiling"
+                    }
+                ],
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to become very angry or upset "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "His parents really {it}hit the roof{/it} when they found out he had flunked out of school."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the skids",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|skid:2||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the spot",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|spot:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the streets",
+                "vrs": [
+                    {
+                        "vl": "or US",
+                        "va": "hit the pavement"
+                    }
+                ],
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to go out in search of something or for a specific purpose "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "I grabbed the classifieds and {it}hit the pavement{/it}, looking for a new job."
+                                                    },
+                                                    {
+                                                        "t": "The reporters {it}hit the streets{/it} to interview passersby."
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "text",
+                                                "{dx}see also {dxt|hit:1||6 (above)}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the town",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|town||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit the trail",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|trail:2||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit up",
+                "gram": "phrasal verb",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sphrasev": {
+                                            "phrs": [
+                                                {
+                                                    "pva": "hit (someone) up"
+                                                },
+                                                {
+                                                    "pvl": "or",
+                                                    "pva": "hit up (someone)"
+                                                }
+                                            ]
+                                        },
+                                        "sls": [
+                                            "US",
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to ask (someone) {it}for{/it} something (such as money) "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She's waiting for the right moment to {it}hit up{/it} her father {it}for{/it} a loan. [=to ask her father for a loan]"
+                                                    },
+                                                    {
+                                                        "t": "I donated money to that charity a few months ago, and they're already {it}hitting{/it} me {it}up for{/it} more."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "hit your stride",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|stride:2||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "know what hit you",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|know:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "shortdef": [
+            "to move your hand, a bat, etc., quickly so that it touches someone or something in a forceful or violent way",
+            "to cause (something, such as a ball) to move by hitting it forcefully with a bat, racket, etc.",
+            "to touch (something or someone) in a forceful or violent way after moving at a high speed"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit:2",
+            "uuid": "c7cfd77e-b3a7-415c-a04a-6021caff1901",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "b6eafbfe-fbbe-4804-98b3-c5d762495317",
+                "tsrc": "collegiate"
+            },
+            "highlight": "yes",
+            "stems": [
+                "hit",
+                "hitless",
+                "hits",
+                "took a hit"
+            ],
+            "app-shortdef": {
+                "hw": "hit:2",
+                "fl": "noun",
+                "def": [
+                    "{bc} an act of hitting someone or something",
+                    "used to describe being hit by something (such as a bullet, bomb, punch, etc.) usually used with {it}take{/it} often used figuratively",
+                    "{bc} something that is very successful"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "hit",
+            "altprs": [
+                {
+                    "ipa": "ˈhɪt"
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "hits"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an act of hitting someone or something "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The player was penalized for an illegal {it}hit{/it} from behind."
+                                            },
+                                            {
+                                                "t": "The torpedo made a direct {it}hit{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used to describe being hit by something (such as a bullet, bomb, punch, etc.)"
+                                                ]
+                                            ],
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually used with {it}take{/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "The bunker {it}took{/it} a direct {it}hit{/it} from the bombers."
+                                                        },
+                                                        {
+                                                            "t": "The plane {it}took{/it} some {it}hits{/it}, but the pilot was able to fly back to the base."
+                                                        }
+                                                    ]
+                                                ]
+                                            ],
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used figuratively "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "His pride {it}took{/it} a {it}hit{/it}. [=his pride was hurt]"
+                                                        },
+                                                        {
+                                                            "t": "The company {it}took a{/it} public relations {it}hit{/it} when it lost the lawsuit. [=the company's public image was damaged when it lost the lawsuit]"
+                                                        },
+                                                        {
+                                                            "t": "She {it}took{/it} a big financial {it}hit{/it} when the stock market fell. [=she lost a lot of money]"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}something that is very successful "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The show was a (smash/big) {it}hit{/it}."
+                                            },
+                                            {
+                                                "t": "The album is a collection of the group's greatest {it}hits{/it}. [=the group's most popular and successful songs]"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used before another noun "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "a {it}hit{/it} record/song"
+                                                        },
+                                                        {
+                                                            "t": "a {it}hit{/it} movie"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|one-hit wonder||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}someone or something that is liked by someone very much "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The pony ride was/made a big {it}hit{/it} at the party."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually + {it}with{/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "The pony ride was a big {it}hit with{/it} the kids at the party. [=the kids at the party enjoyed the pony ride very much]"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a successful effort to reach a desired goal or result "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "His business ventures have been a mixture of {it}hits{/it} and misses. [=some of his business ventures have been successful and some have failed]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "sls": [
+                                    "baseball"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|base hit||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He got/had two {it}hits{/it} in last night's game."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "5",
+                                "sls": [
+                                    "computers"
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an act of connecting to a particular Web site "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The site had/got over a million {it}hits{/it} last month. [=people connected to the site more than a million times last month]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a successful attempt to find something in a search of a computer database or the Internet "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "A search for his name in the newspaper's database produced/found more than 30 {it}hits{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "6",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a single dose of an illegal drug "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Can I get a {it}hit{/it}?"
+                                            },
+                                            {
+                                                "t": "He {phrase}took a hit{/phrase} of LSD."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "7",
+                                "sls": [
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a planned murder done by a paid killer "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "an attempted {it}hit{/it} on the gang's leader"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|hit man||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "hit*less",
+                "prs": [
+                    {
+                        "ipa": "ˈhɪtləs",
+                        "sound": {
+                            "audio": "hit00002"
+                        }
+                    }
+                ],
+                "fl": "adjective",
+                "utxt": [
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}hitless{/it} musical group [=a musical group that has not had any hit songs]"
+                            },
+                            {
+                                "t": "She has gone/been {it}hitless{/it} [=has not had any base hits] in her last three games."
+                            },
+                            {
+                                "t": "He pitched six {it}hitless{/it} innings. [=six innings in which no batter got a base hit]"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "an act of hitting someone or something",
+            "—used to describe being hit by something (such as a bullet, bomb, punch, etc.)—usually used with take —often used figuratively",
+            "something that is very successful —often used before another noun"
+        ]
+    },
+    {
+        "meta": {
+            "id": "belt:1",
+            "uuid": "b99a5dd0-e328-4415-97be-870f5657fc90",
+            "src": "learners",
+            "section": "alpha",
+            "highlight": "yes",
+            "stems": [
+                "belt",
+                "below the belt",
+                "belted",
+                "beltless",
+                "belts",
+                "under one's belt",
+                "under her belt",
+                "under his belt",
+                "under their belt",
+                "tighten your belt",
+                "under your belt",
+                "rust belt",
+                "hit"
+            ],
+            "app-shortdef": {
+                "hw": "belt:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} a band of material (such as leather) that is worn around a person's waist",
+                    "{bc} a band that runs around wheels or other parts in a machine and that is used for moving or carrying something",
+                    "{bc} a region that has a lot of a particular thing"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "belt",
+            "prs": [
+                {
+                    "ipa": "ˈbɛlt",
+                    "sound": {
+                        "audio": "belt0001"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "belts"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a band of material (such as leather) that is worn around a person's waist "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "I fastened/unfastened the buckle on my {it}belt{/it}. = I buckled/unbuckled my {it}belt{/it}."
+                                            },
+                                            {
+                                                "t": "I tied the {it}belt{/it} of my robe."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        " {dx}see also {dxt|black belt||} {dxt|garter belt||} {dxt|safety belt||} {dxt|seat belt||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a band that runs around wheels or other parts in a machine and that is used for moving or carrying something {dx}see also {dxt|fan belt||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a region that has a lot of a particular thing "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}belt{/it} of hilly land [=an area with many hills]"
+                                            },
+                                            {
+                                                "t": "a storm {it}belt{/it}"
+                                            },
+                                            {
+                                                "t": "the farm/farming {it}belt{/it}"
+                                            },
+                                            {
+                                                "t": "the corn/cotton {it}belt{/it} [=a region with many farms growing corn/cotton]"
+                                            },
+                                            {
+                                                "t": "an asteroid {it}belt{/it}"
+                                            },
+                                            {
+                                                "t": "({it}chiefly US{/it}) cities in the {phrase}Rust Belt{/phrase} [=an area formerly known for industry and manufacturing]"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|bible belt||} {dxt|sunbelt||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "uros": [
+            {
+                "ure": "belt*ed",
+                "prs": [
+                    {
+                        "ipa": "ˈbɛltəd",
+                        "sound": {
+                            "audio": "belt0002"
+                        }
+                    }
+                ],
+                "fl": "adjective",
+                "utxt": [
+                    [
+                        "vis",
+                        [
+                            {
+                                "t": "a {it}belted{/it} coat/jacket/robe"
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "below the belt",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}too harsh and unfair "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "That remark was {it}below the belt{/it}. = That remark really {phrase}hit{/phrase} (him) {phrase}below the belt{/phrase}."
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "snote",
+                                                [
+                                                    [
+                                                        "t",
+                                                        "The phrase {it}below the belt{/it} comes from the sport of boxing, where it is against the rules to hit your opponent anywhere below the belt."
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "tighten your belt",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to begin to spend less money {bc}to make changes in order to save money "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "Many companies are {it}tightening their belts{/it} during the recession."
+                                                    }
+                                                ]
+                                            ],
+                                            [
+                                                "text",
+                                                "{dx}see also {dxt|belt-tightening||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "under your belt",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}as an achievement or as part of your experience "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She has a best-selling book {it}under her belt{/it}. [=she has written a best-selling book]"
+                                                    },
+                                                    {
+                                                        "t": "an actor who has several films {it}under his belt{/it} [=who has appeared in several films]"
+                                                    },
+                                                    {
+                                                        "t": "He finally has a full year of experience {it}under his belt{/it}."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dxnls": [
+            "compare {dxt|belt:3||}"
+        ],
+        "shortdef": [
+            "a band of material (such as leather) that is worn around a person's waist",
+            "a band that runs around wheels or other parts in a machine and that is used for moving or carrying something",
+            "a region that has a lot of a particular thing"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit-and-miss",
+            "uuid": "6de45300-fe5b-4a17-9da6-7b218c43d59f",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "39b8c5cf-d6b3-4605-99db-c465914e99d0",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit-and-miss"
+            ],
+            "app-shortdef": {
+                "hw": "hit-and-miss",
+                "fl": "adjective",
+                "def": [
+                    "{bc} sometimes successful and sometimes not {bc} not always good or successful"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hit-and-miss",
+            "prs": [
+                {
+                    "ipa": "ˌhɪtn̩ˈmɪs",
+                    "sound": {
+                        "audio": "hitand01"
+                    }
+                }
+            ]
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}sometimes successful and sometimes not {bc}not always good or successful "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The company has relied on a {it}hit-and-miss{/it} [={it}hit-or-miss{/it}] approach to developing new products."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "sometimes successful and sometimes not : not always good or successful"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit-and-run:1",
+            "uuid": "79b3f2ec-fb59-4b6f-8614-e5e7b6e5b925",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "76b4edba-6ab2-4818-a587-cd891705b211",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit-and-run"
+            ],
+            "app-shortdef": {
+                "hw": "hit-and-run:1",
+                "fl": "adjective",
+                "def": [
+                    "{bc} involving a driver who does not stop after causing an accident",
+                    "{bc} involving quick action by someone who then leaves or runs away quickly"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "hit-and-run",
+            "prs": [
+                {
+                    "ipa": "ˌhɪtn̩ˈrʌn",
+                    "sound": {
+                        "audio": "hitand02"
+                    }
+                }
+            ]
+        },
+        "fl": "adjective",
+        "lbs": [
+            "always used before a noun"
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}involving a driver who does not stop after causing an accident "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}hit-and-run{/it} accident"
+                                            },
+                                            {
+                                                "t": "Police are looking for an unidentified {it}hit-and-run{/it} driver."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}involving quick action by someone who then leaves or runs away quickly "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}hit-and-run{/it} raids along the border"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "involving a driver who does not stop after causing an accident",
+            "involving quick action by someone who then leaves or runs away quickly"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit-and-run:2",
+            "uuid": "3b5139e3-dd26-494b-91d1-9635f50cd304",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "af23b5e1-b1d5-4ff3-9f89-bd593d7f1ec7",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit-and-run",
+                "hit-and-runs"
+            ],
+            "app-shortdef": {
+                "hw": "hit-and-run:2",
+                "fl": "noun",
+                "def": [
+                    "{it}baseball{/it} {bc} a play in which a base runner begins running as soon as a pitch is thrown and the batter tries to hit the pitch"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "hit-and-run",
+            "altprs": [
+                {
+                    "ipa": "ˌhɪtn̩ˈrʌn"
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "-runs",
+                "if": "hit-and-runs"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "baseball"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a play in which a base runner begins running as soon as a pitch is thrown and the batter tries to hit the pitch"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used before another noun "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "a {it}hit-and-run{/it} play"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a play in which a base runner begins running as soon as a pitch is thrown and the batter tries to hit the pitch—often used before another noun"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit list",
+            "uuid": "080e4878-a22c-4ff8-8d2d-0b51c2ac836e",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "abadd9bd-0707-47eb-8d8b-2881a55d18cb",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit list",
+                "hit lists"
+            ],
+            "app-shortdef": {
+                "hw": "hit list",
+                "fl": "noun",
+                "def": [
+                    "{bc} a list of people, organizations, etc., that a person or group plans to oppose or eliminate"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hit list"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ lists",
+                "if": "hit lists"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a list of people, organizations, etc., that a person or group plans to oppose or eliminate "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the gunman's {it}hit list{/it}"
+                                            },
+                                            {
+                                                "t": "Excess spending is at the top of the governor's {it}hit list{/it}. [=it is the first thing the governor plans to eliminate]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a list of people, organizations, etc., that a person or group plans to oppose or eliminate"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit man",
+            "uuid": "ef00704a-6db7-4f54-914c-b415c7a3fbf2",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "78ea4d7b-43f4-428c-ab60-0cecee686d27",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit man",
+                "hit men"
+            ],
+            "app-shortdef": {
+                "hw": "hit man",
+                "fl": "noun",
+                "def": [
+                    "{bc} a person who is paid to kill someone"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hit man"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ men",
+                "if": "hit men"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person who is paid to kill someone "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "She hired a {it}hit man{/it} to kill her ex-husband."
+                                            },
+                                            {
+                                                "t": "Mafia {it}hit men{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a person who is paid to kill someone"
+        ]
+    },
+    {
+        "meta": {
+            "id": "hit-or-miss",
+            "uuid": "3ef19603-2ca0-4461-ae40-0bb8ecbb3b7f",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "9cd5a8ea-4a35-45ce-9603-9c7c37d68dc0",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "hit-or-miss"
+            ],
+            "app-shortdef": {
+                "hw": "hit-or-miss",
+                "fl": "adjective",
+                "def": [
+                    "{bc} not carefully planned or directed"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "hit-or-miss",
+            "prs": [
+                {
+                    "ipa": "ˌhɪtɚˈmɪs",
+                    "sound": {
+                        "audio": "hitorm01"
+                    }
+                }
+            ]
+        },
+        "fl": "adjective",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}not carefully planned or directed "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a {it}hit-or-miss{/it} [={it}hit-and-miss{/it}] method of finding answers"
+                                            },
+                                            {
+                                                "t": "a {it}hit-or-miss{/it} procedure/proposition"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "not carefully planned or directed"
+        ]
+    },
+    {
+        "meta": {
+            "id": "base hit",
+            "uuid": "c66ea2ef-77dd-4245-a361-e19989add0af",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "7d5b6a30-d9da-465e-ab11-d70f105c0ead",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "base hit",
+                "base hits"
+            ],
+            "app-shortdef": {
+                "hw": "base hit",
+                "fl": "noun",
+                "def": [
+                    "{it}baseball{/it} {bc} a hit that allows a batter to reach a base safely {bc} a single, double, triple, or home run"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "base hit"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ hits",
+                "if": "base hits"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "baseball"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a hit that allows a batter to reach a base safely {bc}a single, double, triple, or home run "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The pitcher gave up three {it}base hits{/it} [={it}hits{/it}] in two innings."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a hit that allows a batter to reach a base safely : a single, double, triple, or home run"
+        ]
+    }
+]
