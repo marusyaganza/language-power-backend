@@ -3,3 +3,6 @@ node_modules
 coverage
 *.mock.json
 .vscode
+.env
+.clinic
+my-data.json

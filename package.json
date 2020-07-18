@@ -10,17 +10,20 @@
   },
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
     "test": "jest",
     "test:watch": "jest --watch --silent",
     "eslint": "eslint --debug ./",
     "format-fix": "yarn eslint --fix",
     "coverage": "yarn jest --collect-coverage",
-    "ready": "yarn format-fix && yarn coverage"
+    "ready": "yarn format-fix && yarn coverage",
+    "analyze": "clinic doctor --autocannon [ / ] -- node app.js",
+    "analyze:login": "clinic doctor --autocannon [ -m POST /api/user/login -i my-data.json ] -- node app.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autocannon": "^5.0.1",
     "eslint": "^7.0.0",
     "eslint-plugin-jest": "^23.13.1",
     "eslint-plugin-node": "^11.1.0",
@@ -33,10 +36,12 @@
     "@sentry/node": "5.17.0",
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
-    "mongoose-unique-validator": "^2.0.3"
+    "mongoose-unique-validator": "^2.0.3",
+    "pm2": "^4.4.0"
   }
 }
