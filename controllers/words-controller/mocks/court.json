@@ -1,0 +1,1409 @@
+[
+    {
+        "meta": {
+            "id": "court:1",
+            "uuid": "2195fec7-db58-42e1-bbcd-4008977e7c80",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "ac42dfe2-0b21-4416-808d-2c054fbc9c8f",
+                "tsrc": "collegiate"
+            },
+            "highlight": "yes",
+            "stems": [
+                "court",
+                "courts",
+                "hold court",
+                "laugh out of court",
+                "pay court to",
+                "the ball is in your court",
+                "the court of public/world opinion",
+                "the court of public opinion",
+                "the court of world opinion",
+                "take him to court",
+                "go to court",
+                "out of court",
+                "at court"
+            ],
+            "app-shortdef": {
+                "hw": "court:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} a formal legal meeting in which evidence about crimes, disagreements, etc., is presented to a judge and often a jury so that decisions can be made according to the law",
+                    "{bc} a place where legal cases are heard",
+                    "{bc} an official group of people (such as a judge and jury) who listen to evidence and make decisions about legal cases"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "court",
+            "prs": [
+                {
+                    "ipa": "ˈkoɚt",
+                    "sound": {
+                        "audio": "court001"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "courts"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1 a",
+                                "sgram": "noncount",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a formal legal meeting in which evidence about crimes, disagreements, etc., is presented to a judge and often a jury so that decisions can be made according to the law "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "{it}Court{/it} is now in session."
+                                            },
+                                            {
+                                                "t": "{it}Court{/it} is adjourned for the day."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often used before another noun "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "a {it}court{/it} battle/fight"
+                                                        },
+                                                        {
+                                                            "t": "{it}court{/it} cases/records/costs"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a place where legal cases are heard "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "count"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "There was a large group of protesters outside the {it}court{/it}."
+                                            },
+                                            {
+                                                "t": "a lawyer who has appeared in {it}courts{/it} around the country"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "noncount"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "His landlord threatened to {phrase}take him to court{/phrase}. [=to start a lawsuit against him; to sue him]"
+                                            },
+                                            {
+                                                "t": "The organization is prepared to {phrase}go to court{/phrase} [=to start a lawsuit] to stop construction from proceeding."
+                                            },
+                                            {
+                                                "t": "They were able to settle/resolve the case {phrase}out of court{/phrase}. [=without going to court]"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an official group of people (such as a judge and jury) who listen to evidence and make decisions about legal cases "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The case is before the state's highest {it}court{/it}."
+                                            },
+                                            {
+                                                "t": "She's a judge on an appellate {it}court{/it}."
+                                            },
+                                            {
+                                                "t": "state/federal {it}courts{/it}"
+                                            },
+                                            {
+                                                "t": "The prosecution has new evidence to submit to the {it}court{/it}."
+                                            },
+                                            {
+                                                "t": "Please explain to the {it}court{/it} what happened that night."
+                                            },
+                                            {
+                                                "t": "The {it}court{/it} ruled/declared the law unconstitutional."
+                                            },
+                                            {
+                                                "t": "The {it}court{/it} reversed/rejected the lower court's decision."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a large flat surface that is shaped like a square or rectangle and that is used for playing games like tennis and basketball "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a basketball/tennis {it}court{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3 a",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the place where the leader of a country and especially a king or queen lives and works "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "count"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the {it}courts{/it} of Europe"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "noncount"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He spent a lot of time {phrase}at court{/phrase}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a king or queen and the people who live and work with him or her "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The queen assembled her {it}court{/it}."
+                                            },
+                                            {
+                                                "t": "a member of the king's {it}court{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sen",
+                            {
+                                "sn": "4",
+                                "sgram": "count"
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "a",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used in the names of short streets "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "My sister lives on Brynhurst {it}Court{/it}."
+                                                        }
+                                                    ]
+                                                ]
+                                            ],
+                                            [
+                                                [
+                                                    "text",
+                                                    "abbr. {it}Ct{/it}."
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "b",
+                                "dt": [
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "used in the names of apartment buildings or groups of apartment buildings "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "I live in the Franklin {it}Court{/it} apartments on Main Street."
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|motor court||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ],
+                        [
+                            "sense",
+                            {
+                                "sn": "c",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|courtyard||} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the villa's inner {it}court{/it}"
+                                            },
+                                            {
+                                                "t": "an interior {it}court{/it} garden"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|food court||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dros": [
+            {
+                "drp": "hold court",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to talk to a group of people who listen to what you say because it is funny or interesting "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The restaurant's owner was {it}holding court{/it} at his usual table in the corner."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "laugh out of court",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|laugh:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "pay court to",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sls": [
+                                            "formal + old-fashioned"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to give a lot of attention to (someone) in order to get approval, affection, etc. "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "He does not approve of the young man who has {it}been paying court to{/it} his daughter. [=who has been courting his daughter]"
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "the ball is in your court",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{dx}see {dxt|ball:1||}{/dx}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "drp": "the court of public/world opinion",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}the beliefs and judgment of most people "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The statement was quickly condemned in {it}the court of public opinion{/it}. [=was condemned by the public]"
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "shortdef": [
+            "a formal legal meeting in which evidence about crimes, disagreements, etc., is presented to a judge and often a jury so that decisions can be made according to the law —often used before another noun",
+            "a place where legal cases are heard",
+            "an official group of people (such as a judge and jury) who listen to evidence and make decisions about legal cases"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court:2",
+            "uuid": "a2367cbf-ca0a-4d35-bc18-f6a4d5a949b4",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "40ac9827-63e7-4a88-a16a-87e969b73ea8",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "court",
+                "courted",
+                "courting",
+                "courts",
+                "court someone's favor",
+                "court someones favor",
+                "court favor with someone",
+                "courting disaster",
+                "courting danger/trouble",
+                "courting danger",
+                "courting trouble"
+            ],
+            "app-shortdef": {
+                "hw": "court:2",
+                "fl": "verb",
+                "def": [
+                    "{it}somewhat old-fashioned{/it} {bc} to act in a way that shows that you want or intend to get married",
+                    "{it}of an animal{/it} {bc} to perform the actions that lead to sexual activity",
+                    "{bc} to give a lot of attention and praise to (someone) in order to get approval, support, etc."
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "court",
+            "altprs": [
+                {
+                    "ipa": "ˈkoɚt"
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "courts"
+            },
+            {
+                "if": "court*ed"
+            },
+            {
+                "if": "court*ing"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "sls": [
+                                    "somewhat old-fashioned"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to act in a way that shows that you want or intend to get married "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The couple {it}courted{/it} for two years before marrying."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He was {it}courting{/it} his college sweetheart."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sls": [
+                                    "of an animal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to perform the actions that lead to sexual activity "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "no obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "a pair of robins {it}courting{/it}"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "+ obj"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The male will sometimes {it}court{/it} the female for hours."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to give a lot of attention and praise to (someone) in order to get approval, support, etc. "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "college teams {it}courting{/it} high school basketball stars"
+                                            },
+                                            {
+                                                "t": "The government is {it}courting{/it} [={it}wooing{/it}] investors from around the globe."
+                                            },
+                                            {
+                                                "t": "The speech was clearly intended to {it}court{/it} middle-class voters."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "snote",
+                                        [
+                                            [
+                                                "t",
+                                                "If you {phrase}court someone's favor{/phrase} or {phrase}court favor with someone{/phrase}, you try to get someone's approval."
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "The company is {it}courting favor with{/it} consumers by portraying itself as socially responsible."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "4",
+                                "sgram": "+ obj",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to act in a way that is likely to cause (something unpleasant) to happen to you "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Anyone who refuses to evacuate is {phrase}courting disaster{/phrase}. [={it}flirting with disaster{/it}]"
+                                            },
+                                            {
+                                                "t": "They knew they were {phrase}courting danger/trouble{/phrase} by accepting donations from a convicted felon."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to act in a way that shows that you want or intend to get married",
+            "to perform the actions that lead to sexual activity",
+            "to give a lot of attention and praise to (someone) in order to get approval, support, etc."
+        ]
+    },
+    {
+        "meta": {
+            "id": "court card",
+            "uuid": "b65a01a0-19fd-4ed9-b9b9-b3d0233dd0aa",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "court card",
+                "court cards"
+            ],
+            "app-shortdef": {
+                "hw": "court card",
+                "fl": "noun",
+                "def": [
+                    "{it}chiefly British{/it}"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court card"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ cards",
+                "if": "court cards"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "chiefly British"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|face card||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "face card"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court-martial:1",
+            "uuid": "939485dd-4fab-4793-b6b3-b9286a95081e",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "a232d5fe-a84b-4f6c-955f-a4d25544ae97",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "court-martial",
+                "courts-martial",
+                "court-martials"
+            ],
+            "app-shortdef": {
+                "hw": "court-martial:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} a military court {bc} a court for people in the military who are accused of breaking military law",
+                    "{bc} a trial in a military court"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "court-mar*tial",
+            "prs": [
+                {
+                    "ipa": "ˈkoɚtˌmɑɚʃəl",
+                    "sound": {
+                        "audio": "court_02"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "courts-martial"
+            },
+            {
+                "il": "also",
+                "if": "court-mar*tials"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a military court {bc}a court for people in the military who are accused of breaking military law "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "noncount"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The officers will be tried by {it}court-martial{/it}."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "count"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "They will appear before a {it}court-martial{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sgram": "count",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a trial in a military court "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The sergeant is facing a {it}court-martial{/it} for failure to obey orders."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a military court : a court for people in the military who are accused of breaking military law",
+            "a trial in a military court"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court-martial:2",
+            "uuid": "d0cf450a-06e6-46ae-9fef-d7ff0e230af8",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "13ec7630-1157-4494-a159-73f9f82aa417",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "court-martial",
+                "court-martialed",
+                "court-martialing",
+                "court-martialled",
+                "court-martialling",
+                "court-martials"
+            ],
+            "app-shortdef": {
+                "hw": "court-martial:2",
+                "fl": "verb",
+                "def": [
+                    "{bc} to present evidence against (someone) in a military court {bc} to put (someone) on trial in a military court"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "court-martial",
+            "altprs": [
+                {
+                    "ipa": "ˈkoɚtˌmɑɚʃəl"
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "ifc": "-tials",
+                "if": "court-martials"
+            },
+            {
+                "il": "US",
+                "ifc": "-tialed",
+                "if": "court-martialed"
+            },
+            {
+                "il": "or British",
+                "ifc": "-tialled",
+                "if": "court-martialled"
+            },
+            {
+                "il": "US",
+                "ifc": "-tial*ing",
+                "if": "court-martial*ing"
+            },
+            {
+                "il": "or British",
+                "ifc": "-tial*ling",
+                "if": "court-martial*ling"
+            }
+        ],
+        "gram": "+ obj",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to present evidence against (someone) in a military court {bc}to put (someone) on trial in a military court "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He was {it}court-martialed{/it} for failure to obey orders."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to present evidence against (someone) in a military court : to put (someone) on trial in a military court"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court of appeals",
+            "uuid": "983fa4d8-ad42-463c-9fb7-75b1ff26b47e",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "court of appeals",
+                "court of appeal",
+                "courts of appeals",
+                "appeals court",
+                "appeal court"
+            ],
+            "app-shortdef": {
+                "hw": "court of appeals",
+                "fl": "noun",
+                "def": [
+                    "{bc} a court that studies the decisions made by a lower court and decides if they were correct",
+                    "{b}{it}Court of Appeals{/it}{/b} {it}US{/it} {bc} any one of 13 courts in the U.S. below the Supreme Court",
+                    "{b}{it}Court of Appeal{/it}{/b} {it}British{/it} {bc} the highest court in Britain below the House of Lords"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court of appeals",
+            "psl": "US"
+        },
+        "vrs": [
+            {
+                "vl": "or chiefly British",
+                "va": "court of appeal"
+            }
+        ],
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "courts of appeals"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sls": [
+                    "law"
+                ],
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a court that studies the decisions made by a lower court and decides if they were correct "
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also ({it}US{/it})",
+                                            "cats": [
+                                                {
+                                                    "cat": "appeals court"
+                                                },
+                                                {
+                                                    "psl": "({it}chiefly British{/it}) ",
+                                                    "cat": "appeal court"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "bnote": "Court of Appeals",
+                                "sls": [
+                                    "US"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}any one of 13 courts in the U.S. below the Supreme Court "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "the 9th/Ninth Circuit {it}Court of Appeals{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "bnote": "Court of Appeal",
+                                "sls": [
+                                    "British"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}the highest court in Britain below the House of Lords"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a court that studies the decisions made by a lower court and decides if they were correct —called also (US) appeals court, appeal court",
+            "any one of 13 courts in the U.S. below the Supreme Court",
+            "the highest court in Britain below the House of Lords"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court of law",
+            "uuid": "6f688a83-7a43-4b53-879c-ece7ae745c76",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "court of law",
+                "courts of law"
+            ],
+            "app-shortdef": {
+                "hw": "court of law",
+                "fl": "noun",
+                "def": [
+                    ""
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court of law"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "courts of law"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|court:1||1b} "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "You have the right to a fair trial in a {it}court of law{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "court"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court order",
+            "uuid": "2dbf7b78-ffba-4639-98ea-b7cfaadd3da0",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "3bba98c0-5d84-4fe5-b6ad-1772e96e5652",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "court order",
+                "court orders"
+            ],
+            "app-shortdef": {
+                "hw": "court order",
+                "fl": "noun",
+                "def": [
+                    "{bc} a formal statement from a court that orders someone to do or stop doing something"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court order"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ -ders",
+                "if": "court orders"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a formal statement from a court that orders someone to do or stop doing something "
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "count"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He received a {it}court order{/it} barring him from entering the building."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "wsgram",
+                                        "noncount"
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "He is barred by {it}court order{/it} from entering the building."
+                                            },
+                                            {
+                                                "t": "The town is under {it}court order{/it} to fix the problem."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a formal statement from a court that orders someone to do or stop doing something"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court reporter",
+            "uuid": "0a64d4ce-f183-4c6a-be2c-8f15a707f668",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "b83311c1-c1c1-4b0a-9a53-f49a6e46c1fa",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "court reporter",
+                "court reporters"
+            ],
+            "app-shortdef": {
+                "hw": "court reporter",
+                "fl": "noun",
+                "def": [
+                    "{bc} a person whose job is to write down exactly what is said and done during a legal trial"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court reporter"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ -ers",
+                "if": "court reporters"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a person whose job is to write down exactly what is said and done during a legal trial"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a person whose job is to write down exactly what is said and done during a legal trial"
+        ]
+    },
+    {
+        "meta": {
+            "id": "court shoe",
+            "uuid": "d10a632c-4e50-4d6f-ada2-176790b1d487",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "court shoe",
+                "court shoes"
+            ],
+            "app-shortdef": {
+                "hw": "court shoe",
+                "fl": "noun",
+                "def": [
+                    "{it}British{/it}"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "court shoe"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ shoes",
+                "if": "court shoes"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "British"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|pump:3||1}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "pump"
+        ]
+    }
+]

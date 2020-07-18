@@ -1,0 +1,184 @@
+[
+    {
+        "meta": {
+            "id": "shoal:1",
+            "uuid": "1ec19f23-a283-4016-81a3-6ec11b457e87",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "shoal",
+                "shoals"
+            ],
+            "app-shortdef": {
+                "hw": "shoal:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} an area where the water in a sea, lake, or river is not deep",
+                    "{bc} a small, raised area of sand just below the surface of the water"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "shoal",
+            "prs": [
+                {
+                    "ipa": "ˈʃoʊl",
+                    "sound": {
+                        "audio": "shoal001"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "shoals"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}an area where the water in a sea, lake, or river is not deep "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "fish lurking in the {it}shoals{/it}"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small, raised area of sand just below the surface of the water "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The boat ran aground on the {it}shoal{/it}."
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dxnls": [
+            "compare {dxt|shoal:2||}"
+        ],
+        "shortdef": [
+            "an area where the water in a sea, lake, or river is not deep",
+            "a small, raised area of sand just below the surface of the water"
+        ]
+    },
+    {
+        "meta": {
+            "id": "shoal:2",
+            "uuid": "74046e79-e4c9-4b52-ac96-cb7ae98fb601",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "shoal",
+                "shoals"
+            ],
+            "app-shortdef": {
+                "hw": "shoal:2",
+                "fl": "noun",
+                "def": [
+                    "{bc} a large group or number"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "shoal",
+            "altprs": [
+                {
+                    "ipa": "ˈʃoʊl"
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "shoals"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a large group or number"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "often + {it}of{/it} "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "a {it}shoal{/it} [=(more commonly) {it}school{/it}] {it}of{/it} fish"
+                                                        },
+                                                        {
+                                                            "t": "({it}chiefly Brit{/it}) a {it}shoal of{/it} letters from angry readers"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "dxnls": [
+            "compare {dxt|shoal:1||}"
+        ],
+        "shortdef": [
+            "a large group or number—often + of"
+        ]
+    }
+]

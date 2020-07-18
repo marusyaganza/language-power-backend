@@ -1,0 +1,456 @@
+[
+    {
+        "meta": {
+            "id": "doll:1",
+            "uuid": "2dbabb57-b74e-4c7a-856e-ede9e0b48b92",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "a860bda6-f2e8-4ac3-a799-db9d28c94518",
+                "tsrc": "collegiate"
+            },
+            "highlight": "yes",
+            "stems": [
+                "doll",
+                "dollish",
+                "dollishly",
+                "dollishness",
+                "dollishnesses",
+                "dolls"
+            ],
+            "app-shortdef": {
+                "hw": "doll:1",
+                "fl": "noun",
+                "def": [
+                    "{bc} a child's toy in the form of a baby or small person",
+                    "{it}chiefly US{/it}, {it}informal{/it} {bc} a kind and helpful person",
+                    "{it}informal + old-fashioned{/it} {bc} a woman {it}especially{/it} {bc} an attractive woman"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+            "hw": "doll",
+            "prs": [
+                {
+                    "ipa": "ˈdɑːl",
+                    "sound": {
+                        "audio": "doll0001"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "dolls"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a child's toy in the form of a baby or small person "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "The child was busy playing with her (baby) {it}dolls{/it}."
+                                            },
+                                            {
+                                                "t": "My aunt collects porcelain {it}dolls{/it}."
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "text",
+                                        "{dx}see also {dxt|rag doll||}{/dx}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "sls": [
+                                    "chiefly US",
+                                    "informal"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a kind and helpful person"
+                                    ],
+                                    [
+                                        "uns",
+                                        [
+                                            [
+                                                [
+                                                    "text",
+                                                    "usually singular "
+                                                ],
+                                                [
+                                                    "vis",
+                                                    [
+                                                        {
+                                                            "t": "Thanks for the help. You're a {it}doll{/it}. [={it}dear{/it}]"
+                                                        }
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "3",
+                                "sls": [
+                                    "informal + old-fashioned"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a woman"
+                                    ]
+                                ],
+                                "sdsense": {
+                                    "sd": "especially",
+                                    "dt": [
+                                        [
+                                            "text",
+                                            "{bc}an attractive woman "
+                                        ],
+                                        [
+                                            "snote",
+                                            [
+                                                [
+                                                    "t",
+                                                    "This sense of {it}doll{/it} is now often considered offensive especially when it is used as a way to address a woman."
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a child's toy in the form of a baby or small person",
+            "a kind and helpful person—usually singular",
+            "a woman; especially : an attractive woman"
+        ]
+    },
+    {
+        "meta": {
+            "id": "doll:2",
+            "uuid": "f3ae9c22-1ea1-443e-9e83-88878d559c1a",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "doll",
+                "dolls",
+                "dolled",
+                "dolling",
+                "doll up",
+                "got (all) dolled up",
+                "got all dolled up",
+                "got dolled up"
+            ],
+            "app-shortdef": {
+                "hw": "doll:2",
+                "fl": "verb",
+                "def": [
+                    "{it}informal{/it} {bc} to make (yourself) attractive with makeup and fancy or stylish clothes"
+                ]
+            },
+            "offensive": false
+        },
+        "hom": 2,
+        "hwi": {
+            "hw": "doll",
+            "altprs": [
+                {
+                    "ipa": "ˈdɑːl"
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "dolls"
+            },
+            {
+                "if": "dolled"
+            },
+            {
+                "if": "doll*ing"
+            }
+        ],
+        "dros": [
+            {
+                "drp": "doll up",
+                "gram": "phrasal verb",
+                "def": [
+                    {
+                        "sseq": [
+                            [
+                                [
+                                    "sense",
+                                    {
+                                        "sphrasev": {
+                                            "phrs": [
+                                                {
+                                                    "pva": "doll (yourself) up"
+                                                }
+                                            ]
+                                        },
+                                        "sls": [
+                                            "informal"
+                                        ],
+                                        "dt": [
+                                            [
+                                                "text",
+                                                "{bc}to make (yourself) attractive with makeup and fancy or stylish clothes "
+                                            ],
+                                            [
+                                                "vis",
+                                                [
+                                                    {
+                                                        "t": "She {it}dolled herself up{/it} for the party. = She {phrase}got (all) dolled up{/phrase} for the party."
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "shortdef": []
+    },
+    {
+        "meta": {
+            "id": "doll's house",
+            "uuid": "5a3797da-92af-4336-be86-c15865eacd22",
+            "src": "learners",
+            "section": "alpha",
+            "stems": [
+                "doll's house",
+                "dolls house",
+                "dolls' houses",
+                "dolls houses"
+            ],
+            "app-shortdef": {
+                "hw": "doll's house",
+                "fl": "noun",
+                "def": [
+                    "{it}British{/it}"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "doll's house"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "if": "dolls' houses"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "British"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}{sx|dollhouse||}"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "dollhouse"
+        ]
+    },
+    {
+        "meta": {
+            "id": "rag doll",
+            "uuid": "3c844b5a-6c30-440b-9e75-68f34924cc68",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "b631c55a-dde5-4cdc-88bd-f23bcdd2d390",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "rag doll",
+                "ragdoll",
+                "ragdolls",
+                "rag dolls"
+            ],
+            "app-shortdef": {
+                "hw": "rag doll",
+                "fl": "noun",
+                "def": [
+                    "{bc} a soft doll made of cloth"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "rag doll"
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "~ dolls",
+                "if": "rag dolls"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a soft doll made of cloth"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a soft doll made of cloth"
+        ]
+    },
+    {
+        "meta": {
+            "id": "dollhouse",
+            "uuid": "81d58b37-7b7c-4594-977a-b73c622c6eba",
+            "src": "learners",
+            "section": "alpha",
+            "target": {
+                "tuuid": "ab9f5a0c-b0a7-4a01-ae1a-fe961d865892",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "dollhouse",
+                "dollhouses",
+                "doll's house",
+                "dolls house"
+            ],
+            "app-shortdef": {
+                "hw": "dollhouse",
+                "fl": "noun",
+                "def": [
+                    "{it}US{/it} {bc} a small toy house that is used by children for playing with dolls"
+                ]
+            },
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "doll*house",
+            "prs": [
+                {
+                    "ipa": "ˈdɑːlˌhaʊs",
+                    "sound": {
+                        "audio": "dollho01"
+                    }
+                }
+            ]
+        },
+        "fl": "noun",
+        "ins": [
+            {
+                "il": "plural",
+                "ifc": "-hous*es",
+                "if": "doll*hous*es"
+            }
+        ],
+        "gram": "count",
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sls": [
+                                    "US"
+                                ],
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}a small toy house that is used by children for playing with dolls "
+                                    ],
+                                    [
+                                        "ca",
+                                        {
+                                            "intro": "called also ({it}British{/it})",
+                                            "cats": [
+                                                {
+                                                    "cat": "doll's house"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "a small toy house that is used by children for playing with dolls —called also (British) doll's house"
+        ]
+    }
+]
