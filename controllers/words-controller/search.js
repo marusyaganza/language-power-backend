@@ -1,5 +1,7 @@
 const HttpError = require('../../models/http-error');
-const { formatData } = require('../helpers');
+// const { formatData } = require('../helpers');
+// For learners dictionary
+const { formatData } = require('../helpers_collegiate');
 
 const axios = require('axios');
 async function search(req, res, next) {
