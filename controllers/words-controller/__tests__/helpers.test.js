@@ -12,9 +12,6 @@ const audios = [
 process.env.AUDIO_ENDPOINT = 'https://audio.com';
 
 describe('helpers ', () => {
-    // afterEach(() => {
-    //   jest.restoreAllMocks();
-    // });
     it('createAudioUrl generates right urls', () => {
         audios.forEach(audio => {
             expect(createAudioUrl(audio.in)).toBe(audio.out);
