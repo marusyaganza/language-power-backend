@@ -4,6 +4,7 @@ const { check } = require('express-validator');
 const checkAuth = require('../middleware/check-auth');
 const getUsersCards = require('../controllers/words-controller/get-users-cards');
 const addCard = require('../controllers/words-controller/add-card');
+const updateCard = require('../controllers/words-controller/update-card');
 const deleteCard = require('../controllers/words-controller/delete-card');
 const getCard = require('../controllers/words-controller/get-card');
 const search = require('../controllers/words-controller/search');
@@ -28,6 +29,8 @@ router.use(checkAuth);
 router.get('/', getUsersCards);
 
 router.post('/addCard', validationRules, addCard);
+
+router.patch('/edit/:cardId', updateCard);
 
 router.delete('/:cardId', deleteCard);
 
