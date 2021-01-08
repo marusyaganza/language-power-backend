@@ -10,10 +10,10 @@ module.exports = {
       functions: 80,
     },
     'controllers/**/*.js': {
-      branches: 50,
-      lines: 80,
-      functions: 80,
-      statements: -10,
+      branches: 20,
+      lines: 30,
+      functions: 20,
+      statements: -40,
     },
     'middleware/**/*.js': {
       branches: 50,

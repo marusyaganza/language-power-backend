@@ -7,7 +7,7 @@ const wordCardSchema = new Schema(
         uuid: {type: String, required: true},
         name:{type: String, required: true},
         particle: {type: String, required: true},
-        defs : {type: Array},
+        defs : {type: Array, required: true, minlength: 1},
         stems: {type: Array},
         pronunciation: 
             {
