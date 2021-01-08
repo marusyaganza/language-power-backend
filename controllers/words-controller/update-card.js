@@ -1,14 +1,18 @@
-const { validationResult } = require('express-validator');
 const HttpError = require('../../models/http-error');
 const WordCard = require('../../models/word-cards');
-const User = require('../../models/user');
 const Score = require('../../models/score');
 const { generateGameData } = require('../helpers');
+
+const MUTABLE_PROPERTIES = ['defs', 'examples'];
 
 async function updateCard(req, res, next) {
   const { userId } = req.userData;
   const { cardId } = req.params;
   const changes = req.body;
+
+  if(changes.defs && !changes.defs.length) {
+    return next(new HttpError('invalid input: defs array can\'t be empty', 422));
+  }
 
   let existingCard;
   try {
@@ -17,13 +21,11 @@ async function updateCard(req, res, next) {
     if (process.env.mode === 'dev') {
       console.error(err);
     }
-    next(new HttpError('fetching card failed, please try again', 500));
+    return next(new HttpError('fetching card failed, please try again', 500));
   }
   if (!existingCard) {
     return next(
-      new HttpError(`card is not found`),
-      404
-    );
+      new HttpError(`card is not found`, 404))
   }
 
   const { userData } = req;
@@ -38,9 +40,25 @@ async function updateCard(req, res, next) {
 
 const entries = Object.entries(changes);
 
-entries.forEach(([key, value]) => {
-    existingCard[key] = value;
+entries
+.forEach(([key, value]) => {
+    if (MUTABLE_PROPERTIES.includes(key)) {
+      existingCard[key] = value;
+    }
 });
+
+if (!changes.defs) {
+  try {
+    await existingCard.save();
+  }
+  catch (err) {
+    if (process.env.mode === 'dev') {
+      console.error(err);
+    }
+    return next(new HttpError('updating card failed, please try again', 500));
+  }
+  return res.status(201).json({ message: 'changes saved' });
+}
 
   const gameData = generateGameData(changes.defs.length);
 
@@ -62,7 +80,7 @@ entries.forEach(([key, value]) => {
     if (process.env.mode === 'dev') {
       console.error(err);
     }
-    return next(new HttpError('creating card failed, please try again', 500));
+    return next(new HttpError('updating card failed, please try again', 500));
   }
   res.status(201).json({ message: 'changes saved' });
 }
