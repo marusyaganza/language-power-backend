@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const Sentry = require('@sentry/node');
 const express = require('express');
+const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
@@ -13,6 +14,8 @@ const gamesRoutes = require('./routes/games-routes');
 const HttpError = require('./models/http-error');
 
 const app = express();
+
+app.use(helmet());
 
 Sentry.init({
   release: `language-power-backend@${version}`,
