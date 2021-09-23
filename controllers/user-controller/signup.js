@@ -42,7 +42,7 @@ async function signup(req, res, next) {
   let hashedPassword;
 
   try {
-    hashedPassword = await bcrypt.hash(password, process.env.SALT_NUMBER);
+    hashedPassword = await bcrypt.hash(password, parseInt(process.env.SALT_NUMBER));
   } catch (err) {
     if (process.env.mode === 'dev') {
       console.error(err);
