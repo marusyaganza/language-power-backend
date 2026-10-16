@@ -6,7 +6,7 @@ const { formatData } = require('../helpers_collegiate');
 const axios = require('axios');
 async function search(req, res, next) {
   const { query } = req.params;
-  const url = `${process.env.SEARC_ENDPOINT}/${query}?key=${process.env.MW_KEY}`;
+  const url = `${process.env.SEARCH_ENDPOINT}/${query}?key=${process.env.MW_KEY}`;
   let formattedRes;
   try {
     const response = await axios.get(url);

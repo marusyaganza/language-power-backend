@@ -54,11 +54,16 @@ app.use((error, req, res, next) => {
   next();
 });
 
+const dbUri =
+  process.env.MONGO_URI ||
+  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_KEY}${process.env.DB_URL}/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+
 mongoose
-  .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_KEY}${process.env.DB_URL}/${process.env.DB_NAME}?retryWrites=true&w=majority`,
-    { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
-  )
+  .connect(dbUri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
   .then(() => {
     app.listen(process.env.PORT);
   })

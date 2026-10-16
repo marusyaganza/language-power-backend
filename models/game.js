@@ -6,6 +6,7 @@ const gameSchema = new Schema({
     description: {type: String, required: true},
     name: {type: String, required: true, unique: true},
     logo: {type: String},
+    logoW: {type: String},
     config: {type: Object, required: true}
 });
 

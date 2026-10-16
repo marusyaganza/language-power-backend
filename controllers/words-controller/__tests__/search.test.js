@@ -11,7 +11,7 @@ const json = jest.fn();
 const req = { params: { query: 'shoal' } };
 const get = jest.fn();
 
-process.env.SEARC_ENDPOINT = 'https//test.com';
+process.env.SEARCH_ENDPOINT = 'https//test.com';
 process.env.MW_KEY = 'myKey';
 
 describe('search', () => {

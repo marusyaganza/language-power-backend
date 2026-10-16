@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongodb/mongodb-community-server:5.0-ubuntu2004
+    command: ['--replSet', 'rs0', '--bind_ip_all']
+    ports:
+      - '27017:27017'
+    healthcheck:
+      # Starts the replica set on first run; afterwards just reports it as healthy.
+      test:
+        [
+          'CMD',
+          'mongosh',
+          '--quiet',
+          '--eval',
+          "try { rs.status().ok } catch (e) { rs.initiate({ _id: 'rs0', members: [{ _id: 0, host: 'localhost:27017' }] }).ok }",
+        ]
+      interval: 5s
+      timeout: 10s
+      retries: 10
